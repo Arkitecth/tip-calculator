@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 108,
+            "activePatchIndex": 417,
             "patches": [
                 {
                     "date": 1686326567879,
@@ -440,6 +440,1242 @@
                 {
                     "date": 1686333212546,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,11 @@\n     top: 38px;\n     left: 10px;\n }\n \n+\n+/* People Entry Styling */\n+\n .people-entry {\n     position: relative;\n }\n .people-entry img {\n"
+                },
+                {
+                    "date": 1686333306213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,10 +69,11 @@\n     left: 10px;\n }\n \n \n+\n+\n /* People Entry Styling */\n-\n .people-entry {\n     position: relative;\n }\n .people-entry img {\n"
+                },
+                {
+                    "date": 1686333745642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,11 +68,15 @@\n     top: 38px;\n     left: 10px;\n }\n \n+input[type=\"button\"] {\n+    color: red;\n+}\n \n \n \n+\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686333754347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,10 +73,8 @@\n     color: red;\n }\n \n \n-\n-\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686333793686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,11 @@\n     top: 38px;\n     left: 10px;\n }\n \n-input[type=\"button\"] {\n+/* Tip Entry */\n+\n+.tip-entry input[type=\"button\"] {\n     color: red;\n }\n \n \n"
+                },
+                {
+                    "date": 1686333823711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,11 +69,10 @@\n     left: 10px;\n }\n \n /* Tip Entry */\n-\n .tip-entry input[type=\"button\"] {\n-    color: red;\n+    padding: 30px;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333833420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n-    padding: 30px;\n+    padding: 20px;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333839990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n-    padding: 20px;\n+    padding: 10px;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333850865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,8 +71,9 @@\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n     padding: 10px;\n+    background-color: ;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333859988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n     padding: 10px;\n-    background-color: ;\n+    background-color:#00474B;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333868317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n     padding: 10px;\n     background-color:#00474B;\n+    color: #fff;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333882394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,10 @@\n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n     padding: 10px;\n     background-color:#00474B;\n-    color: #fff;\n+    color: #f3F9FA;\n+    font-size: ;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333892291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n .tip-entry input[type=\"button\"] {\n     padding: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n-    font-size: ;\n+    font-size: 24px;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333902940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n .tip-entry input[type=\"button\"] {\n     padding: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n-    font-size: 24px;\n+    font-size: 1.5rem;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686333914878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,8 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n-    padding: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n }\n"
+                },
+                {
+                    "date": 1686333931062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,8 +70,9 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n+    padding: 5px 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n }\n"
+                },
+                {
+                    "date": 1686333954830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n-    padding: 5px 10px;\n+    padding: 7px 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n }\n"
+                },
+                {
+                    "date": 1686333964873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n-    padding: 7px 10px;\n+    padding: 7px 20px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n }\n"
+                },
+                {
+                    "date": 1686333986373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,12 +70,13 @@\n }\n \n /* Tip Entry */\n .tip-entry input[type=\"button\"] {\n-    padding: 7px 20px;\n+    padding: 7px 30px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n+    border: none;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686334002250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,9 @@\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n+    border-radius: 2%;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686334019668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,8 +69,12 @@\n     left: 10px;\n }\n \n /* Tip Entry */\n+\n+.tip-entry {\n+    padding: 30px;\n+}\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n     background-color:#00474B;\n     color: #f3F9FA;\n"
+                },
+                {
+                    "date": 1686334029275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,11 +70,8 @@\n }\n \n /* Tip Entry */\n \n-.tip-entry {\n-    padding: 30px;\n-}\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n     background-color:#00474B;\n     color: #f3F9FA;\n"
+                },
+                {
+                    "date": 1686334044749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,11 @@\n     left: 10px;\n }\n \n /* Tip Entry */\n-\n+.tip-entry p {\n+    padding: 10px;\n+}\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n     background-color:#00474B;\n     color: #f3F9FA;\n"
+                },
+                {
+                    "date": 1686334078047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,9 @@\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n-    border-radius: 2%;\n+    border-radius: 5%;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686334093633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,8 +69,11 @@\n     left: 10px;\n }\n \n /* Tip Entry */\n+.tip-entry {\n+    display: flex;\n+}\n .tip-entry p {\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n"
+                },
+                {
+                    "date": 1686334101716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,11 +69,8 @@\n     left: 10px;\n }\n \n /* Tip Entry */\n-.tip-entry {\n-    display: flex;\n-}\n .tip-entry p {\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n"
+                },
+                {
+                    "date": 1686334117147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n .tip-entry p {\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n-    padding: 7px 30px;\n+    padding: 10px 30px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334125985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,10 @@\n .tip-entry p {\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n-    padding: 10px 30px;\n+    padding: 7px 30px;\n+    margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334143560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n-    margin-bottom: 10px;\n+    margin-bottom: 20px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334150554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n-    margin-bottom: 20px;\n+    margin-top: 20px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334165776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,8 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n-    margin-top: 20px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334180336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n \n .entry {\n     display: grid;\n     padding-top: 30px;\n-    grid-template-rows: 1fr 1fr 1fr;\n+    grid-template-rows: auto auto auto;\n     padding-left: 30px;\n     justify-content: center;\n     color: #5E7A7D;\n }\n"
+                },
+                {
+                    "date": 1686334203947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n+    margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334237929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,9 @@\n }\n .tip-entry input[type=\"button\"] {\n     padding: 7px 30px;\n     margin-bottom: 10px;\n+    text-align: center;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334308774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,11 +73,10 @@\n .tip-entry p {\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n-    padding: 7px 30px;\n+    width: 117px;\n     margin-bottom: 10px;\n-    text-align: center;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334323922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n+    padding-bottom: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686334331056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n-    padding-bottom: 10px;\n+    padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686334500794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,13 @@\n     border: none;\n     border-radius: 5%;\n }\n \n+.tip-entry input[type=\"button\"]:active {\n+    background-color: ;\n+}\n \n+\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686334527518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n     border-radius: 5%;\n }\n \n .tip-entry input[type=\"button\"]:active {\n-    background-color: ;\n+    background-color: #26C2AE;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686334538681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n     border: none;\n     border-radius: 5%;\n }\n \n-.tip-entry input[type=\"button\"]:active {\n+.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:active {\n     background-color: #26C2AE;\n }\n \n \n"
+                },
+                {
+                    "date": 1686334559730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,10 @@\n     border: none;\n     border-radius: 5%;\n }\n \n-.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:active {\n+.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n+    border: 1px solid #f3F9FA;\n     background-color: #26C2AE;\n }\n \n \n"
+                },
+                {
+                    "date": 1686334578259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n-    padding: 10px;\n+    padding: 20px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n@@ -84,9 +84,9 @@\n     border-radius: 5%;\n }\n \n .tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n-    border: 1px solid #f3F9FA;\n+    border: 1px solid #fff;\n     background-color: #26C2AE;\n }\n \n \n"
+                },
+                {
+                    "date": 1686334588392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     padding: 10px;\n }\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n-    padding: 20px;\n+    padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686334664804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,9 @@\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n+    transform: translateY(4px);\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n"
+                },
+                {
+                    "date": 1686334680640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,11 +76,11 @@\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n-    transform: translateY(4px);\n     background-color:#00474B;\n     color: #f3F9FA;\n+    transform: translateY(4px);\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n }\n"
+                },
+                {
+                    "date": 1686334685960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,9 @@\n     padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n-    transform: translateY(4px);\n+    transform: translateY(20px);\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n }\n"
+                },
+                {
+                    "date": 1686334691514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,8 @@\n     padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n-    transform: translateY(20px);\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n }\n"
+                },
+                {
+                    "date": 1686334763624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,8 +78,9 @@\n     padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n+    box-shadow: 0 9px #999;\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n }\n"
+                },
+                {
+                    "date": 1686334779338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,8 +87,10 @@\n \n .tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n+    box-shadow: 0 5px #666;\n+    transform: translateY(4px);\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686334791607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,8 @@\n \n .tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n-    box-shadow: 0 5px #666;\n     transform: translateY(4px);\n }\n \n \n"
+                },
+                {
+                    "date": 1686334810373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,8 @@\n     padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n-    box-shadow: 0 9px #999;\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n }\n"
+                },
+                {
+                    "date": 1686334909652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,15 +83,19 @@\n     border: none;\n     border-radius: 5%;\n }\n \n-.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n+.tip-entry input[type=\"button\"]:active,{\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n     transform: translateY(4px);\n }\n \n+.tip-entry input[type=\"button\"]:hover {\n+    \n+}\n \n+\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686334915335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,16 +83,16 @@\n     border: none;\n     border-radius: 5%;\n }\n \n-.tip-entry input[type=\"button\"]:active,{\n+.tip-entry input[type=\"button\"]:active{\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n-    transform: translateY(4px);\n+ \n }\n \n .tip-entry input[type=\"button\"]:hover {\n-    \n+    transform: translateY(4px);\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686334922509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n     border: none;\n     border-radius: 5%;\n }\n \n-.tip-entry input[type=\"button\"]:active{\n+.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:active {\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n  \n }\n"
+                },
+                {
+                    "date": 1686334927599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,14 +83,13 @@\n     border: none;\n     border-radius: 5%;\n }\n \n-.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:active {\n+.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n  \n }\n-\n .tip-entry input[type=\"button\"]:hover {\n     transform: translateY(4px);\n }\n \n"
+                },
+                {
+                    "date": 1686334937064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,9 @@\n     border: 1px solid #fff;\n     background-color: #26C2AE;\n  \n }\n-.tip-entry input[type=\"button\"]:hover {\n+.tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n \n"
+                },
+                {
+                    "date": 1686334956445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,8 @@\n     border-radius: 5%;\n }\n \n .tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n-    border: 1px solid #fff;\n     background-color: #26C2AE;\n  \n }\n .tip-entry input[type=\"button\"]:active {\n"
+                },
+                {
+                    "date": 1686334992799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,15 +85,18 @@\n }\n \n .tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n     background-color: #26C2AE;\n- \n }\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n+.custom {\n+    \n+}\n \n+\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686335021784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n     transform: translateY(4px);\n }\n \n .custom {\n-    \n+    background-color: #F3F9FA;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686335037968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n-.custom {\n+.tip-entry input[type=\"button\"] .custom {\n     background-color: #F3F9FA;\n }\n \n \n"
+                },
+                {
+                    "date": 1686335065885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n-.tip-entry input[type=\"button\"] .custom {\n+.custom  {\n     background-color: #F3F9FA;\n }\n \n \n"
+                },
+                {
+                    "date": 1686335109386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n-.custom  {\n+.tip-entry.custom {\n     background-color: #F3F9FA;\n }\n \n \n"
+                },
+                {
+                    "date": 1686335179367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,12 @@\n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n }\n+\n+.tip-entry .custom {\n+    background-color: #F3F9FA;\n+}\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n@@ -90,11 +94,8 @@\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n-.tip-entry.custom {\n-    background-color: #F3F9FA;\n-}\n \n \n /* People Entry Styling */\n .people-entry {\n"
+                },
+                {
+                    "date": 1686335191894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,12 +72,8 @@\n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n }\n-\n-.tip-entry .custom {\n-    background-color: #F3F9FA;\n-}\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n@@ -94,8 +90,11 @@\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n+.tip-entry .custom {\n+    background-color: #F3F9FA;\n+}\n \n \n /* People Entry Styling */\n .people-entry {\n"
+                },
+                {
+                    "date": 1686335204360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n }\n \n-.tip-entry .custom {\n+.tip-entry input.custom {\n     background-color: #F3F9FA;\n }\n \n \n"
+                },
+                {
+                    "date": 1686335220578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n     transform: translateY(4px);\n }\n \n .tip-entry input.custom {\n-    background-color: #F3F9FA;\n+    background-color:#547878\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686335243495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n     transform: translateY(4px);\n }\n \n .tip-entry input.custom {\n-    background-color:#547878\n+    background-color: #F3F9FA\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686335257117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,8 +92,9 @@\n }\n \n .tip-entry input.custom {\n     background-color: #F3F9FA\n+    color:#547878;\n }\n \n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686335326215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,8 +81,9 @@\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n+    font-weight: 700;\n }\n \n .tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n     background-color: #26C2AE;\n@@ -91,9 +92,9 @@\n     transform: translateY(4px);\n }\n \n .tip-entry input.custom {\n-    background-color: #F3F9FA\n+    background-color: #F3F9FA;\n     color:#547878;\n }\n \n \n"
+                },
+                {
+                    "date": 1686335357883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,9 @@\n }\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n+    font-family: 'Space Mono', monospace;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686335407720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,9 +97,8 @@\n     background-color: #F3F9FA;\n     color:#547878;\n }\n \n-\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686335511826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,12 @@\n     border: 1px solid #26C2AE;\n   \n }\n \n+.entry-input::placeholder {\n+    \n+}\n+\n /* Bill Styling */\n \n .bill-entry {\n     position: relative;\n"
+                },
+                {
+                    "date": 1686335568342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,10 @@\n   \n }\n \n .entry-input::placeholder {\n-    \n+    text-align: right;\n+    font-size: 24px;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335583507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n }\n \n .entry-input::placeholder {\n     text-align: right;\n-    font-size: 24px;\n+    font-size: 1.5rem;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335610007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,10 @@\n \n .entry-input::placeholder {\n     text-align: right;\n     font-size: 1.5rem;\n+    color:#00474B;\n+    ;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335629505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n .entry-input::placeholder {\n     text-align: right;\n     font-size: 1.5rem;\n     color:#00474B;\n-    ;\n+    opacity: 0.35;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335642516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,8 +61,9 @@\n     text-align: right;\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n+    margin-top: 1rem;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335662676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n     text-align: right;\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n-    margin-top: 1rem;\n+    padding: 1rem;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335684498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');\n * {\n     margin: 0;\n     padding: 0;\n+    font-family: 'Space Mono', monospace;\n }\n \n /* Main Styling */\n body {\n     background-color: #C5E4E7;\n-    font-family: 'Space Mono', monospace;\n+  \n }\n \n main {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686335692705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,8 @@\n }\n .tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n-    font-family: 'Space Mono', monospace;\n     margin-bottom: 10px;\n     background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686335713051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n+    margin-top: 1rem;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335721757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n-    margin-top: 1rem;\n+    padding-top: 1rem;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335728750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,8 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n-    padding-top: 1rem;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335754366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,10 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n+    transform: translateY(10px\n+    );\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335761388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,10 +63,9 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n-    transform: translateY(10px\n-    );\n+    transform: translateY(30px);\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335768776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n-    transform: translateY(30px);\n+    transform: translateY(5px);\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335833561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,9 @@\n     width: 379px;\n     height: 45px;\n     border: none;\n     border-radius: 2%;\n+    text-align: right;\n   \n }\n \n .entry-input:focus {\n"
+                },
+                {
+                    "date": 1686335848132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n     height: 45px;\n     border: none;\n     border-radius: 2%;\n     text-align: right;\n+    font-size: 1rem;\n   \n }\n \n .entry-input:focus {\n"
+                },
+                {
+                    "date": 1686335857003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n     height: 45px;\n     border: none;\n     border-radius: 2%;\n     text-align: right;\n-    font-size: 1rem;\n+    font-size: 1.5rem;\n   \n }\n \n .entry-input:focus {\n"
+                },
+                {
+                    "date": 1686335897811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,8 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n-    transform: translateY(5px);\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686335938361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n     border: none;\n     border-radius: 2%;\n     text-align: right;\n     font-size: 1.5rem;\n+    color: #00474B;\n   \n }\n \n .entry-input:focus {\n@@ -65,8 +66,9 @@\n     font-size: 1.5rem;\n     color:#00474B;\n     opacity: 0.35;\n     padding: 1rem;\n+    \n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686336040745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,12 @@\n     justify-content: center;\n     color: #5E7A7D;\n }\n \n+.entry p {\n+    padding-bottom: 1rem;\n+}\n+\n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n     height: 45px;\n"
+                },
+                {
+                    "date": 1686336066993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     color: #5E7A7D;\n }\n \n .entry p {\n-    padding-bottom: 1rem;\n+    \n }\n \n .entry-input {\n     background-color:#f3F9FA;\n"
+                },
+                {
+                    "date": 1686336072822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     color: #5E7A7D;\n }\n \n .entry p {\n-    \n+    margin-bottom: 1rem;\n }\n \n .entry-input {\n     background-color:#f3F9FA;\n"
+                },
+                {
+                    "date": 1686336083652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,11 +42,11 @@\n     justify-content: center;\n     color: #5E7A7D;\n }\n \n-.entry p {\n+/* .entry p {\n     margin-bottom: 1rem;\n-}\n+} */\n \n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n"
+                },
+                {
+                    "date": 1686336089727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,11 +42,11 @@\n     justify-content: center;\n     color: #5E7A7D;\n }\n \n-/* .entry p {\n+.entry p {\n     margin-bottom: 1rem;\n-} */\n+}\n \n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n"
+                },
+                {
+                    "date": 1686336094962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     color: #5E7A7D;\n }\n \n .entry p {\n-    margin-bottom: 1rem;\n+    margin-bottom: 1px;\n }\n \n .entry-input {\n     background-color:#f3F9FA;\n"
+                },
+                {
+                    "date": 1686336100624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     color: #5E7A7D;\n }\n \n .entry p {\n-    margin-bottom: 1px;\n+    margin-bottom: 10px;\n }\n \n .entry-input {\n     background-color:#f3F9FA;\n"
+                },
+                {
+                    "date": 1686336138459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 38px;\n+    top: 50px;\n     left: 10px;\n }\n \n /* Tip Entry */\n"
+                },
+                {
+                    "date": 1686336145359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 50px;\n+    top: 45px;\n     left: 10px;\n }\n \n /* Tip Entry */\n"
+                },
+                {
+                    "date": 1686336153857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 45px;\n+    top: 50px;\n     left: 10px;\n }\n \n /* Tip Entry */\n"
+                },
+                {
+                    "date": 1686336162149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,7 +119,7 @@\n     position: relative;\n }\n .people-entry img {\n     position: absolute;\n-    top: 38px;\n+    top: 50px;\n     left: 10px;\n }\n"
+                },
+                {
+                    "date": 1686336291841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,4 +122,10 @@\n     position: absolute;\n     top: 50px;\n     left: 10px;\n }\n+\n+/* Result Styling */\n+\n+.result {\n+    \n+}\n"
+                },
+                {
+                    "date": 1686336795473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,6 +126,7 @@\n \n /* Result Styling */\n \n .result {\n-    \n+    display: flex;\n+    flex-direction: column;\n }\n"
+                },
+                {
+                    "date": 1686336842870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,4 +129,8 @@\n .result {\n     display: flex;\n     flex-direction: column;\n }\n+\n+.tip {\n+    \n+}\n"
+                },
+                {
+                    "date": 1686336848560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,6 +131,6 @@\n     flex-direction: column;\n }\n \n .tip {\n-    \n+    display: flex;\n }\n"
+                },
+                {
+                    "date": 1686336871712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,8 +128,9 @@\n \n .result {\n     display: flex;\n     flex-direction: column;\n+    background-color: #00474B;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686336909656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,5 +133,6 @@\n }\n \n .tip {\n     display: flex;\n+    flex-direction: row;\n }\n"
+                },
+                {
+                    "date": 1686336916886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,5 +134,6 @@\n \n .tip {\n     display: flex;\n     flex-direction: row;\n+    justify-content: center;\n }\n"
+                },
+                {
+                    "date": 1686336924321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,6 @@\n \n .tip {\n     display: flex;\n     flex-direction: row;\n-    justify-content: center;\n+    justify-content: space-between;\n }\n"
+                },
+                {
+                    "date": 1686336944897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,10 @@\n \n .tip {\n     display: flex;\n     flex-direction: row;\n-    justify-content: space-between;\n+    justify-content: space-evenly;\n }\n+\n+.total {\n+    display: flex;\n+}\n"
+                },
+                {
+                    "date": 1686336958977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,5 +139,6 @@\n }\n \n .total {\n     display: flex;\n+    justify-content: space-evenly;\n }\n"
+                },
+                {
+                    "date": 1686336969030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,8 +135,9 @@\n .tip {\n     display: flex;\n     flex-direction: row;\n     justify-content: space-evenly;\n+    align-content: center;\n }\n \n .total {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686336977015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,8 +129,9 @@\n .result {\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n+    height: 100vh;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686336982989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,8 @@\n .result {\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n-    height: 100vh;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337001384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,8 +129,9 @@\n .result {\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n+    align-content: center;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337044689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,8 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n+    justify-content: center;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337054544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: center;\n+    justify-content: flex-start;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337060750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: flex-start;\n+    justify-content: space-between;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337067471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-between;\n+    justify-content: space-evenly;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337076075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-evenly;\n+    justify-content: space-around;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337084702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-around;\n+    justify-content: space-between;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337161592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-between;\n+    justify-content: space-around;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337170104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-around;\n+    justify-content: flex-start;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337180653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: flex-start;\n+    justify-content: space-evenly;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337215707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,8 +131,9 @@\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n     justify-content: space-evenly;\n+    border-radius: 10%;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337238920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,8 +132,9 @@\n     background-color: #00474B;\n     align-content: center;\n     justify-content: space-evenly;\n     border-radius: 10%;\n+    width: fit-content;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337248655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n     background-color: #00474B;\n     align-content: center;\n     justify-content: space-evenly;\n     border-radius: 10%;\n-    width: fit-content;\n+    width: 413px;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337268973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,8 +133,9 @@\n     align-content: center;\n     justify-content: space-evenly;\n     border-radius: 10%;\n     width: 413px;\n+    height: ;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337334001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,10 @@\n     height: 481px;\n     background-color: white;\n     border-radius: 5%;\n     display: grid;\n+    gap: 20px\n+    ;\n     grid-template-columns: 1fr 1fr;\n }\n \n /* Entry Styling */\n@@ -133,9 +135,9 @@\n     align-content: center;\n     justify-content: space-evenly;\n     border-radius: 10%;\n     width: 413px;\n-    height: ;\n+    height: 417px;\n }\n \n .tip {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337342144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,8 @@\n     height: 481px;\n     background-color: white;\n     border-radius: 5%;\n     display: grid;\n-    gap: 20px\n-    ;\n     grid-template-columns: 1fr 1fr;\n }\n \n /* Entry Styling */\n"
+                },
+                {
+                    "date": 1686337372607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n     background-color: white;\n     border-radius: 5%;\n     display: grid;\n     grid-template-columns: 1fr 1fr;\n+    ga: 20px;\n }\n \n /* Entry Styling */\n \n"
+                },
+                {
+                    "date": 1686337381040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,8 @@\n     background-color: white;\n     border-radius: 5%;\n     display: grid;\n     grid-template-columns: 1fr 1fr;\n-    ga: 20px;\n }\n \n /* Entry Styling */\n \n@@ -133,8 +132,9 @@\n     background-color: #00474B;\n     align-content: center;\n     justify-content: space-evenly;\n     border-radius: 10%;\n+    margin-top: 30px;\n     width: 413px;\n     height: 417px;\n }\n \n"
+                },
+                {
+                    "date": 1686337429242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,8 @@\n     left: 10px;\n }\n \n /* Result Styling */\n-\n .result {\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n@@ -137,8 +136,9 @@\n     width: 413px;\n     height: 417px;\n }\n \n+\n .tip {\n     display: flex;\n     flex-direction: row;\n     justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686337439111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n     width: 413px;\n     height: 417px;\n }\n \n-\n+/* Tip Syling */\n .tip {\n     display: flex;\n     flex-direction: row;\n     justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686337554992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,8 +144,12 @@\n     justify-content: space-evenly;\n     align-content: center;\n }\n \n+.title {\n+    color: #f3F9FA;\n+}\n+\n .total {\n     display: flex;\n     justify-content: space-evenly;\n }\n"
+                },
+                {
+                    "date": 1686337572852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,10 +145,13 @@\n     align-content: center;\n }\n \n .title {\n-    color: #f3F9FA;\n+    color: #FFFFFF;\n }\n+span {\n+    \n+}\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686337580390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,9 +147,10 @@\n \n .title {\n     color: #FFFFFF;\n }\n-span {\n+\n+.greyed-color {\n     \n }\n \n .total {\n"
+                },
+                {
+                    "date": 1686337589604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -149,9 +149,9 @@\n     color: #FFFFFF;\n }\n \n .greyed-color {\n-    \n+    color: #7F9D9F;\n }\n \n .total {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337616873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,12 +148,16 @@\n .title {\n     color: #FFFFFF;\n }\n \n-.greyed-color {\n+.grey-color {\n     color: #7F9D9F;\n }\n \n+.amount {\n+    \n+}\n+\n .total {\n     display: flex;\n     justify-content: space-evenly;\n }\n"
+                },
+                {
+                    "date": 1686337637810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -153,9 +153,9 @@\n     color: #7F9D9F;\n }\n \n .amount {\n-    \n+    color: #26C2AE;\n }\n \n .total {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337648474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,8 +154,9 @@\n }\n \n .amount {\n     color: #26C2AE;\n+    font-size: 48px;\n }\n \n .total {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686337691320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-evenly;\n+    justify-content: flex-start;\n     border-radius: 10%;\n     margin-top: 30px;\n     width: 413px;\n     height: 417px;\n"
+                },
+                {
+                    "date": 1686337698431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: flex-start;\n+    justify-content: space-around;\n     border-radius: 10%;\n     margin-top: 30px;\n     width: 413px;\n     height: 417px;\n"
+                },
+                {
+                    "date": 1686337711725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-around;\n+    justify-content: space-between;\n     border-radius: 10%;\n     margin-top: 30px;\n     width: 413px;\n     height: 417px;\n"
+                },
+                {
+                    "date": 1686337717576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     display: flex;\n     flex-direction: column;\n     background-color: #00474B;\n     align-content: center;\n-    justify-content: space-between;\n+    justify-content: space-evenly;\n     border-radius: 10%;\n     margin-top: 30px;\n     width: 413px;\n     height: 417px;\n"
+                },
+                {
+                    "date": 1686337858349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,8 +142,9 @@\n     display: flex;\n     flex-direction: row;\n     justify-content: space-evenly;\n     align-content: center;\n+    transform: translateY(100px);\n }\n \n .title {\n     color: #FFFFFF;\n"
+                },
+                {
+                    "date": 1686337893191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n     display: flex;\n     flex-direction: row;\n     justify-content: space-evenly;\n     align-content: center;\n-    transform: translateY(100px);\n+  \n }\n \n .title {\n     color: #FFFFFF;\n@@ -161,5 +161,7 @@\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n+    transform: translateY(100px\n+    )\n }\n"
+                },
+                {
+                    "date": 1686337901092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -161,7 +161,6 @@\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n-    transform: translateY(100px\n-    )\n+    transform: translateY(0px);\n }\n"
+                },
+                {
+                    "date": 1686337910252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -161,6 +161,6 @@\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n-    transform: translateY(0px);\n+    transform: translateY(-90px);\n }\n"
+                },
+                {
+                    "date": 1686337984485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,8 +147,9 @@\n }\n \n .title {\n     color: #FFFFFF;\n+    width: ;\n }\n \n .grey-color {\n     color: #7F9D9F;\n@@ -161,6 +162,6 @@\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n-    transform: translateY(-90px);\n+    transform: translateY(-50px);\n }\n"
+                },
+                {
+                    "date": 1686337993036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,9 +147,9 @@\n }\n \n .title {\n     color: #FFFFFF;\n-    width: ;\n+    width: 98px;\n }\n \n .grey-color {\n     color: #7F9D9F;\n"
+                },
+                {
+                    "date": 1686338033129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,4 +164,6 @@\n     display: flex;\n     justify-content: space-evenly;\n     transform: translateY(-50px);\n }\n+\n+/* Rest Button */\n"
+                },
+                {
+                    "date": 1686338038868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,4 +166,7 @@\n     transform: translateY(-50px);\n }\n \n /* Rest Button */\n+.reset-button {\n+    \n+}\n"
+                },
+                {
+                    "date": 1686338054822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,6 +167,6 @@\n }\n \n /* Rest Button */\n .reset-button {\n-    \n+    width: 333px;\n }\n"
+                },
+                {
+                    "date": 1686338070709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,5 +168,7 @@\n \n /* Rest Button */\n .reset-button {\n     width: 333px;\n+    height: 48px;\n+    margin: auto;\n }\n"
+                },
+                {
+                    "date": 1686338090011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,6 +169,7 @@\n /* Rest Button */\n .reset-button {\n     width: 333px;\n     height: 48px;\n-    margin: auto;\n+    margin: 0 auto;\n+    text-transform: uppercase;\n }\n"
+                },
+                {
+                    "date": 1686338109821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,5 +171,6 @@\n     width: 333px;\n     height: 48px;\n     margin: 0 auto;\n     text-transform: uppercase;\n+    font-size: 20px;\n }\n"
+                },
+                {
+                    "date": 1686338140192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,5 +172,6 @@\n     height: 48px;\n     margin: 0 auto;\n     text-transform: uppercase;\n     font-size: 20px;\n+    background-color: 00474B;\n }\n"
+                },
+                {
+                    "date": 1686338154261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,6 +172,7 @@\n     height: 48px;\n     margin: 0 auto;\n     text-transform: uppercase;\n     font-size: 20px;\n-    background-color: 00474B;\n+    background-color: #00474B;\n+    color: #26C2AE;\n }\n"
+                },
+                {
+                    "date": 1686338177835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -174,5 +174,6 @@\n     text-transform: uppercase;\n     font-size: 20px;\n     background-color: #00474B;\n     color: #26C2AE;\n+    border: none;\n }\n"
+                },
+                {
+                    "date": 1686338197225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,8 +172,8 @@\n     height: 48px;\n     margin: 0 auto;\n     text-transform: uppercase;\n     font-size: 20px;\n-    background-color: #00474B;\n+    background-color: 26C2AE\n     color: #26C2AE;\n     border: none;\n }\n"
+                },
+                {
+                    "date": 1686338203162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,8 +172,8 @@\n     height: 48px;\n     margin: 0 auto;\n     text-transform: uppercase;\n     font-size: 20px;\n-    background-color: 26C2AE\n+    background-color: #26C2AE\n     color: #26C2AE;\n     border: none;\n }\n"
+                },
+                {
+                    "date": 1686338213761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,7 +173,7 @@\n     margin: 0 auto;\n     text-transform: uppercase;\n     font-size: 20px;\n     background-color: #26C2AE\n-    color: #26C2AE;\n+    color: #00474B\n     border: none;\n }\n"
+                },
+                {
+                    "date": 1686338239268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,8 +172,9 @@\n     height: 48px;\n     margin: 0 auto;\n     text-transform: uppercase;\n     font-size: 20px;\n-    background-color: #26C2AE\n-    color: #00474B\n+    background-color: #26C2AE;\n+    color: #00474B;\n     border: none;\n+    border-radius: 10%;\n }\n"
+                },
+                {
+                    "date": 1686338244528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,6 +175,6 @@\n     font-size: 20px;\n     background-color: #26C2AE;\n     color: #00474B;\n     border: none;\n-    border-radius: 10%;\n+    border-radius: 2%;\n }\n"
+                },
+                {
+                    "date": 1686338257865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,4 +177,8 @@\n     color: #00474B;\n     border: none;\n     border-radius: 2%;\n }\n+\n+.reset-button:hover {\n+    \n+}\n"
+                },
+                {
+                    "date": 1686338274344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,6 +179,6 @@\n     border-radius: 2%;\n }\n \n .reset-button:hover {\n-    \n+    background-color: #26C2AE;\n }\n"
+                },
+                {
+                    "date": 1686338288385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,6 +179,6 @@\n     border-radius: 2%;\n }\n \n .reset-button:hover {\n-    background-color: #26C2AE;\n+    background-color: 9FE8DF\n }\n"
+                },
+                {
+                    "date": 1686338311321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,7 +178,10 @@\n     border: none;\n     border-radius: 2%;\n }\n \n-.reset-button:hover {\n-    background-color: 9FE8DF\n+.reset-button:hover, \n+.reset-button:active{\n+    background-color: #9FE8DF\n }\n+\n+\n"
+                },
+                {
+                    "date": 1686338322136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,6 +182,9 @@\n .reset-button:hover, \n .reset-button:active{\n     background-color: #9FE8DF\n }\n+.reset-button:active{\n+    background-color: #9FE8DF\n+}\n \n \n"
+                },
+                {
+                    "date": 1686338329055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,8 +183,8 @@\n .reset-button:active{\n     background-color: #9FE8DF\n }\n .reset-button:active{\n-    background-color: #9FE8DF\n+    transform: translateY(4px);\n }\n \n \n"
+                },
+                {
+                    "date": 1686339701213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -186,5 +186,9 @@\n .reset-button:active{\n     transform: translateY(4px);\n }\n \n+@media screen and (max-width:956px) {\n+    \n+}\n \n+\n"
+                },
+                {
+                    "date": 1686339769543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,8 +187,10 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n-    \n+    .app {\n+        display: grid;\n+    }\n }\n \n \n"
+                },
+                {
+                    "date": 1686339844428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,8 +189,13 @@\n \n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n+        grid-template-rows: 1fr 1fr;\n     }\n+\n+    .entry {\n+        width: fit-content;\n+    }\n }\n \n \n"
+                },
+                {
+                    "date": 1686339851720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,11 +191,7 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n     }\n-\n-    .entry {\n-        width: fit-content;\n-    }\n }\n \n \n"
+                },
+                {
+                    "date": 1686339859669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,8 +190,9 @@\n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n+        width: 375px;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686339865115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,8 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n+        height: fit-content;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686339875518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,8 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: fit-content;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686339917620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,8 +187,11 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n+    .logo {\n+        margin: auto;\n+    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686340001431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,7 +195,10 @@\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n+    .result {\n+        display: none;\n+    }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340022203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,11 +187,10 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n-    .logo {\n-        margin: auto;\n-    }\n+\n+    .main {}\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686340036465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -188,9 +188,11 @@\n }\n \n @media screen and (max-width:956px) {\n \n-    .main {}\n+    .main {\n+        justify-content: center;\n+    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686340049106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,8 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     .main {\n+        width: 100%;\n         justify-content: center;\n     }\n     .app {\n         display: grid;\n"
+                },
+                {
+                    "date": 1686340054905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,8 @@\n \n @media screen and (max-width:956px) {\n \n     .main {\n-        width: 100%;\n         justify-content: center;\n     }\n     .app {\n         display: grid;\n"
+                },
+                {
+                    "date": 1686340106180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,8 +196,11 @@\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n+    .tip-entry input[type=\"button\"] {\n+\n+    }\n     .result {\n         display: none;\n     }\n }\n"
+                },
+                {
+                    "date": 1686340117161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n     .tip-entry input[type=\"button\"] {\n-\n+        width: 311px;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340133380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n     .tip-entry input[type=\"button\"] {\n-        width: 311px;\n+        width: 300px;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340160263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n     .tip-entry input[type=\"button\"] {\n-        width: 300px;\n+        width: 117px;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340200750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,10 +196,18 @@\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n-    .tip-entry input[type=\"button\"] {\n-        width: 117px;\n+    .entry-input {\n+        background-color:#f3F9FA;\n+        width: 379px;\n+        height: 45px;\n+        border: none;\n+        border-radius: 2%;\n+        text-align: right;\n+        font-size: 1.5rem;\n+        color: #00474B;\n+      \n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340213523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,16 +197,9 @@\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n     }\n     .entry-input {\n-        background-color:#f3F9FA;\n-        width: 379px;\n-        height: 45px;\n-        border: none;\n-        border-radius: 2%;\n-        text-align: right;\n-        font-size: 1.5rem;\n-        color: #00474B;\n+        width: 311px;\n       \n     }\n     .result {\n         display: none;\n"
+                },
+                {
+                    "date": 1686340261953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,9 +198,8 @@\n         width: 375px;\n     }\n     .entry-input {\n         width: 311px;\n-      \n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340315301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,11 @@\n     }\n     .entry-input {\n         width: 311px;\n     }\n+    .tip-entry p {\n+        padding: 20px 0;\n+    }\n     .result {\n         display: none;\n     }\n }\n"
+                },
+                {
+                    "date": 1686340326494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,9 +200,9 @@\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n-        padding: 20px 0;\n+        padding: 10px;;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340337679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,9 +200,9 @@\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n-        padding: 10px;;\n+        padding: 20px 0;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340374608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,9 +200,9 @@\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n-        padding: 20px 0;\n+        padding: 15px 0;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340413586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,8 +202,11 @@\n     }\n     .tip-entry p {\n         padding: 15px 0;\n     }\n+    .tip-entry input {\n+        \n+    }\n     .result {\n         display: none;\n     }\n }\n"
+                },
+                {
+                    "date": 1686340426696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n     .tip-entry p {\n         padding: 15px 0;\n     }\n     .tip-entry input {\n-        \n+        width: 146.63;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340451036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n     }\n     .tip-entry p {\n         padding: 15px 0;\n     }\n-    .tip-entry input {\n+    .tip-entry input[type=\"button\"]  {\n         width: 146.63;\n     }\n     .result {\n         display: none;\n"
+                },
+                {
+                    "date": 1686340460147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n     .tip-entry p {\n         padding: 15px 0;\n     }\n     .tip-entry input[type=\"button\"]  {\n-        width: 146.63;\n+        width: 146.63px;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340532617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -205,8 +205,11 @@\n     }\n     .tip-entry input[type=\"button\"]  {\n         width: 146.63px;\n     }\n+    .people-entry p {\n+        \n+    }\n     .result {\n         display: none;\n     }\n }\n"
+                },
+                {
+                    "date": 1686340538136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -206,9 +206,9 @@\n     .tip-entry input[type=\"button\"]  {\n         width: 146.63px;\n     }\n     .people-entry p {\n-        \n+        padding-top: 20px;\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340586626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,8 +208,12 @@\n     }\n     .people-entry p {\n         padding-top: 20px;\n     }\n+\n+    .people-entry img {\n+        transform: translateY(100px);\n+    }\n     .result {\n         display: none;\n     }\n }\n"
+                },
+                {
+                    "date": 1686340595664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n         padding-top: 20px;\n     }\n \n     .people-entry img {\n-        transform: translateY(100px);\n+        transform: translateY(-10px);\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340606622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n         padding-top: 20px;\n     }\n \n     .people-entry img {\n-        transform: translateY(-10px);\n+        transform: translateY(-30px);\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340612212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n         padding-top: 20px;\n     }\n \n     .people-entry img {\n-        transform: translateY(-30px);\n+        transform: translateY(10px);\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340618174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n         padding-top: 20px;\n     }\n \n     .people-entry img {\n-        transform: translateY(10px);\n+        transform: translateY(20px);\n     }\n     .result {\n         display: none;\n     }\n"
+                },
+                {
+                    "date": 1686340658912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -212,10 +212,7 @@\n \n     .people-entry img {\n         transform: translateY(20px);\n     }\n-    .result {\n-        display: none;\n-    }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340667476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -212,7 +212,10 @@\n \n     .people-entry img {\n         transform: translateY(20px);\n     }\n+    .result {\n+        display: none;\n+    }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340684313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        display: none;\n+        grid-row: 2;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340701303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,8 +214,9 @@\n         transform: translateY(20px);\n     }\n     .result {\n         grid-row: 2;\n+        width: 325px;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340716383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,8 +215,9 @@\n     }\n     .result {\n         grid-row: 2;\n         width: 325px;\n+        justify-content: center;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340727676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,9 +215,9 @@\n     }\n     .result {\n         grid-row: 2;\n         width: 325px;\n-        justify-content: center;\n+        margin: auto;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340754042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,8 +195,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n+        height: 100%;\n     }\n     .entry-input {\n         width: 311px;\n     }\n@@ -215,9 +216,9 @@\n     }\n     .result {\n         grid-row: 2;\n         width: 325px;\n-        margin: auto;\n+        margin: 0 auto;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340771462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,9 +216,9 @@\n     }\n     .result {\n         grid-row: 2;\n         width: 325px;\n-        margin: 0 auto;\n+        margin: 10px auto;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340799997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,8 +217,10 @@\n     .result {\n         grid-row: 2;\n         width: 325px;\n         margin: 10px auto;\n+        font-size: 16px;\n+\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340833326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,12 @@\n         grid-row: 2;\n         width: 325px;\n         margin: 10px auto;\n         font-size: 16px;\n+    }\n \n+    .title {\n+        font-size: 32px;\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1686340847525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -220,9 +220,9 @@\n         margin: 10px auto;\n         font-size: 16px;\n     }\n \n-    .title {\n+    .amount {\n         font-size: 32px;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1686340873847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -220,8 +220,12 @@\n         margin: 10px auto;\n         font-size: 16px;\n     }\n \n+    .reset-button {\n+        \n+    }\n+\n     .amount {\n         font-size: 32px;\n     }\n }\n"
+                },
+                {
+                    "date": 1686340885300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,9 +221,9 @@\n         font-size: 16px;\n     }\n \n     .reset-button {\n-        \n+        width: 281px;\n     }\n \n     .amount {\n         font-size: 32px;\n"
+                },
+                {
+                    "date": 1686340973599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,9 +215,9 @@\n         transform: translateY(20px);\n     }\n     .result {\n         grid-row: 2;\n-        width: 325px;\n+        width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n     }\n \n"
+                },
+                {
+                    "date": 1686340988151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,8 +216,9 @@\n     }\n     .result {\n         grid-row: 2;\n         width: 328px;\n+        height: 257px;\n         margin: 10px auto;\n         font-size: 16px;\n     }\n \n"
+                },
+                {
+                    "date": 1686341047981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,8 +215,9 @@\n         transform: translateY(20px);\n     }\n     .result {\n         grid-row: 2;\n+        grid-column: 1 / span 2;\n         width: 328px;\n         height: 257px;\n         margin: 10px auto;\n         font-size: 16px;\n"
+                },
+                {
+                    "date": 1686341056921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,9 +215,9 @@\n         transform: translateY(20px);\n     }\n     .result {\n         grid-row: 2;\n-        grid-column: 1 / span 2;\n+        grid-column: 1;\n         width: 328px;\n         height: 257px;\n         margin: 10px auto;\n         font-size: 16px;\n"
+                },
+                {
+                    "date": 1686341070159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,9 +215,8 @@\n         transform: translateY(20px);\n     }\n     .result {\n         grid-row: 2;\n-        grid-column: 1;\n         width: 328px;\n         height: 257px;\n         margin: 10px auto;\n         font-size: 16px;\n"
+                },
+                {
+                    "date": 1686341135376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,8 +219,9 @@\n         width: 328px;\n         height: 257px;\n         margin: 10px auto;\n         font-size: 16px;\n+        justify-content: space-evenly;\n     }\n \n     .reset-button {\n         width: 281px;\n"
+                },
+                {
+                    "date": 1686341150945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,9 +216,8 @@\n     }\n     .result {\n         grid-row: 2;\n         width: 328px;\n-        height: 257px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n     }\n"
+                },
+                {
+                    "date": 1686341213727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     .main {\n-        justify-content: center;\n+        display: grid;\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341220302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,8 +190,9 @@\n @media screen and (max-width:956px) {\n \n     .main {\n         display: grid;\n+        grid-template-rows: 1fr 1fr;\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341232149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n @media screen and (max-width:956px) {\n \n     .main {\n         display: grid;\n-        grid-template-rows: 1fr 1fr;\n+        grid-template-rows: 1fr 1fr 1fr;\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341260664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,9 +215,9 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        grid-row: 2;\n+        grid-row: 2 / span 3;\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686341272704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,13 +187,8 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n-\n-    .main {\n-        display: grid;\n-        grid-template-rows: 1fr 1fr 1fr;\n-    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686341322703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,8 +215,9 @@\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n+        margin-left: 30px;\n     }\n \n     .reset-button {\n         width: 281px;\n"
+                },
+                {
+                    "date": 1686341331943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,14 +210,14 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        grid-row: 2 / span 3;\n+        grid-row: 2;\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n-        margin-left: 30px;\n+        margin-left: 20px;\n     }\n \n     .reset-button {\n         width: 281px;\n"
+                },
+                {
+                    "date": 1686341342017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,8 +215,9 @@\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n+        margin-top: 20px;\n         margin-left: 20px;\n     }\n \n     .reset-button {\n"
+                },
+                {
+                    "date": 1686341383359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 100%;\n+        height: 200%;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686341392031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 200%;\n+        height: 100%;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686341441780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 100%;\n+        height: 800px;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686341451546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 800px;\n+        height: 100%;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686341497823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 100%;\n+        background-color: #FFFFFF;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686341506154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,8 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        background-color: #FFFFFF;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686341543866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,8 +187,15 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n+    body {\n+        background-color: #FFFFFF;\n+    }\n+\n+    .logo {\n+        background-color: #00474B;\n+    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686341555332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,12 +190,8 @@\n @media screen and (max-width:956px) {\n     body {\n         background-color: #FFFFFF;\n     }\n-\n-    .logo {\n-        background-color: #00474B;\n-    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686341570225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,11 +187,8 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n-    body {\n-        background-color: #FFFFFF;\n-    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686341601269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,8 +187,12 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n+\n+    body {\n+        gradient\n+    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686341656310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-        gradient\n+     background: linear-gradient(#C5E4E7;);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341673536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-     background: linear-gradient(#C5E4E7;);\n+     background: linear-gradient(180, #C5E4E7);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341680929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-     background: linear-gradient(180, #C5E4E7);\n+     background: linear-gradient(180deg, #C5E4E7);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341721998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-     background: linear-gradient(180deg, #C5E4E7);\n+     background: linear-gradient(180deg, #C5E4E7 10%, #FFFFFF);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341731678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-     background: linear-gradient(180deg, #C5E4E7 10%, #FFFFFF);\n+     background: linear-gradient(180deg, #C5E4E7 10%, #FFFFFF 90%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341869287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-     background: linear-gradient(180deg, #C5E4E7 10%, #FFFFFF 90%);\n+        background: linear-gradient(90deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 35%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341876151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-        background: linear-gradient(90deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 35%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 35%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341895368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 35%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 35%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341903983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 35%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 20%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341917726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 20%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 30%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341926020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 30%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 25%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341935424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 25%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 3%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341947491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 3%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 30%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341953372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 30%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 30%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341962348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 30%);\n+    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 100%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341982235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n-    background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 100%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686341992247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,8 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     body {\n+        background: rgb(197,228,231);\n         background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 100%);\n     }\n     .app {\n         display: grid;\n"
+                },
+                {
+                    "date": 1686342003537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n @media screen and (max-width:956px) {\n \n     body {\n         background: rgb(197,228,231);\n-        background: linear-gradient(180deg, rgba(197,228,231,1) 0%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 100%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686342010285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n @media screen and (max-width:956px) {\n \n     body {\n         background: rgb(197,228,231);\n-        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 80%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686342034822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n @media screen and (max-width:956px) {\n \n     body {\n         background: rgb(197,228,231);\n-        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 80%);\n+        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 70%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686342048305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n @media screen and (max-width:956px) {\n \n     body {\n         background: rgb(197,228,231);\n-        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 70%);\n+        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 80%);\n     }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n"
+                },
+                {
+                    "date": 1686342099444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,13 +187,8 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n-\n-    body {\n-        background: rgb(197,228,231);\n-        background: linear-gradient(180deg, rgba(197,228,231,1) 10%, rgba(255,255,255,1) 80%);\n-    }\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686342133865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,8 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n+        height: 789px;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342224537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 789px;\n+        height: 90vh;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342243745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: 1fr 1fr;\n         width: 375px;\n-        height: 90vh;\n+        height: 100vh;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342318380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,8 +221,9 @@\n     }\n \n     .reset-button {\n         width: 281px;\n+        font-size: 20px;\n     }\n \n     .amount {\n         font-size: 32px;\n"
+                },
+                {
+                    "date": 1686342331418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,9 +221,8 @@\n     }\n \n     .reset-button {\n         width: 281px;\n-        font-size: 20px;\n     }\n \n     .amount {\n         font-size: 32px;\n"
+                },
+                {
+                    "date": 1686342441254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n-        grid-template-rows: 1fr 1fr;\n+        grid-template-rows: auto auto;\n         width: 375px;\n         height: 100vh;\n     }\n     .entry-input {\n"
+                },
+                {
+                    "date": 1686342491434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,8 @@\n     .app {\n         display: grid;\n         grid-template-rows: auto auto;\n         width: 375px;\n-        height: 100vh;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342549990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,9 +209,9 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        grid-row: 2;\n+        grid-row: 1;\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686342555902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,8 +191,9 @@\n     .app {\n         display: grid;\n         grid-template-rows: auto auto;\n         width: 375px;\n+\n     }\n     .entry-input {\n         width: 311px;\n     }\n@@ -209,9 +210,9 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        grid-row: 1;\n+        grid-row: 2;\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686342562468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        grid-row: 2;\n+        grid-row: 1;\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686342603614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,8 +195,9 @@\n \n     }\n     .entry-input {\n         width: 311px;\n+        grid-row: 2;\n     }\n     .tip-entry p {\n         padding: 15px 0;\n     }\n"
+                },
+                {
+                    "date": 1686342612664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -211,9 +211,8 @@\n     .people-entry img {\n         transform: translateY(20px);\n     }\n     .result {\n-        grid-row: 1;\n         width: 328px;\n         margin: 10px auto;\n         font-size: 16px;\n         justify-content: space-evenly;\n"
+                },
+                {
+                    "date": 1686342623373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,8 @@\n \n     }\n     .entry-input {\n         width: 311px;\n-        grid-row: 2;\n     }\n     .tip-entry p {\n         padding: 15px 0;\n     }\n"
+                },
+                {
+                    "date": 1686342644268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -212,8 +212,9 @@\n     }\n     .result {\n         width: 328px;\n         margin: 10px auto;\n+        grid-row: 2;\n         font-size: 16px;\n         justify-content: space-evenly;\n         margin-top: 20px;\n         margin-left: 20px;\n"
+                },
+                {
+                    "date": 1686342672028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,8 +190,9 @@\n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n         grid-template-rows: auto auto;\n+        grid-template-columns: 1fr;\n         width: 375px;\n \n     }\n     .entry-input {\n"
+                },
+                {
+                    "date": 1686342796396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,8 +196,9 @@\n \n     }\n     .entry-input {\n         width: 311px;\n+        grid-row: 1 / span 2;\n     }\n     .tip-entry p {\n         padding: 15px 0;\n     }\n"
+                },
+                {
+                    "date": 1686342815547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,8 @@\n \n     }\n     .entry-input {\n         width: 311px;\n-        grid-row: 1 / span 2;\n     }\n     .tip-entry p {\n         padding: 15px 0;\n     }\n"
+                },
+                {
+                    "date": 1686342839305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,8 +194,12 @@\n         grid-template-columns: 1fr;\n         width: 375px;\n \n     }\n+\n+    .entry {\n+        grid-row: 1 / span 1;\n+    }\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n"
+                },
+                {
+                    "date": 1686342848702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,9 @@\n \n     }\n \n     .entry {\n-        grid-row: 1 / span 1;\n+        grid-row: 1;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342858845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,9 @@\n \n     }\n \n     .entry {\n-        grid-row: 1;\n+        grid: ;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342865868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,9 @@\n \n     }\n \n     .entry {\n-        grid: ;\n+        grid:1 / span 2;\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342892948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,9 @@\n \n     }\n \n     .entry {\n-        grid:1 / span 2;\n+\n     }\n     .entry-input {\n         width: 311px;\n     }\n"
+                },
+                {
+                    "date": 1686342935483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,12 +194,8 @@\n         grid-template-columns: 1fr;\n         width: 375px;\n \n     }\n-\n-    .entry {\n-\n-    }\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n"
+                },
+                {
+                    "date": 1686342971070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,8 @@\n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n         grid-template-rows: auto auto;\n-        grid-template-columns: 1fr;\n         width: 375px;\n \n     }\n     .entry-input {\n"
+                },
+                {
+                    "date": 1686342979045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,10 +189,8 @@\n \n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n-        grid-template-rows: auto auto;\n-        width: 375px;\n \n     }\n     .entry-input {\n         width: 311px;\n"
+                },
+                {
+                    "date": 1686342991044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,8 +189,10 @@\n \n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n+        grid-template-rows: auto auto;\n+        width: 375px;\n \n     }\n     .entry-input {\n         width: 311px;\n"
+                },
+                {
+                    "date": 1686342999047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,8 @@\n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n         grid-template-rows: auto auto;\n-        width: 375px;\n \n     }\n     .entry-input {\n         width: 311px;\n"
+                },
+                {
+                    "date": 1686343010359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n-        grid-template-rows: auto auto;\n+        width: 375px;\n \n     }\n     .entry-input {\n         width: 311px;\n"
+                },
+                {
+                    "date": 1686343088837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,8 +189,9 @@\n \n @media screen and (max-width:956px) {\n     .app {\n         display: grid;\n+        height: fit-content;\n         width: 375px;\n \n     }\n     .entry-input {\n"
+                },
+                {
+                    "date": 1686343128830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,8 +216,9 @@\n         grid-row: 2;\n         font-size: 16px;\n         justify-content: space-evenly;\n         margin-top: 20px;\n+        height: 257px;\n         margin-left: 20px;\n     }\n \n     .reset-button {\n"
+                },
+                {
+                    "date": 1686343377840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,9 +214,9 @@\n         width: 328px;\n         margin: 10px auto;\n         grid-row: 2;\n         font-size: 16px;\n-        justify-content: space-evenly;\n+        justify-content: space-around;\n         margin-top: 20px;\n         height: 257px;\n         margin-left: 20px;\n     }\n"
+                },
+                {
+                    "date": 1686343422539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -220,8 +220,12 @@\n         height: 257px;\n         margin-left: 20px;\n     }\n \n+    .total {\n+        \n+    }\n+\n     .reset-button {\n         width: 281px;\n     }\n \n"
+                },
+                {
+                    "date": 1686343428695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,9 +221,9 @@\n         margin-left: 20px;\n     }\n \n     .total {\n-        \n+        transform: translate(0);\n     }\n \n     .reset-button {\n         width: 281px;\n"
+                },
+                {
+                    "date": 1686343450512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n-    transform: translateY(-50px);\n+    transform: translateY(0px);\n }\n \n /* Rest Button */\n .reset-button {\n"
+                },
+                {
+                    "date": 1686343466748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n \n .total {\n     display: flex;\n     justify-content: space-evenly;\n-    transform: translateY(0px);\n+    transform: translateY(-50px);\n }\n \n /* Rest Button */\n .reset-button {\n"
+                },
+                {
+                    "date": 1686343489444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,8 +193,12 @@\n         height: fit-content;\n         width: 375px;\n \n     }\n+\n+    .logo {\n+        height: 100%;\n+    }\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n"
+                },
+                {
+                    "date": 1686343567744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,12 +193,8 @@\n         height: fit-content;\n         width: 375px;\n \n     }\n-\n-    .logo {\n-        height: 100%;\n-    }\n     .entry-input {\n         width: 311px;\n     }\n     .tip-entry p {\n"
+                },
+                {
+                    "date": 1686343581579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,8 +187,12 @@\n     transform: translateY(4px);\n }\n \n @media screen and (max-width:956px) {\n+\n+    main {\n+        gap: 0;\n+    }\n     .app {\n         display: grid;\n         height: fit-content;\n         width: 375px;\n"
+                },
+                {
+                    "date": 1686343587203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     main {\n-        gap: 0;\n+        gap: 100px;\n     }\n     .app {\n         display: grid;\n         height: fit-content;\n"
+                },
+                {
+                    "date": 1686343615719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     main {\n-        gap: 100px;\n+        gap: 200px;\n     }\n     .app {\n         display: grid;\n         height: fit-content;\n"
+                },
+                {
+                    "date": 1686343621535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     main {\n-        gap: 200px;\n+        gap: 0x;\n     }\n     .app {\n         display: grid;\n         height: fit-content;\n"
+                },
+                {
+                    "date": 1686343670039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     main {\n-        gap: 0x;\n+        justify-content: fle;\n     }\n     .app {\n         display: grid;\n         height: fit-content;\n"
+                },
+                {
+                    "date": 1686343677038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     main {\n-        justify-content: fle;\n+        justify-content: flex-start;\n     }\n     .app {\n         display: grid;\n         height: fit-content;\n"
                 }
             ],
             "date": 1686326567879,

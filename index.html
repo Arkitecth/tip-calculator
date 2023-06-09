@@ -17,7 +17,7 @@
         <div class="entry">
           <div class="bill-entry">
             <p>Bill</p>
-            <img src="images/icon-dollar.svg" alt="dollar sign"><input class="entry-input" type="text" name="Bill" id="Bill">
+            <img src="images/icon-dollar.svg" alt="dollar sign"><input class="entry-input" type="text" name="Bill" id="Bill" placeholder="0"> 
           </div>
 
           <div class="tip-entry">
@@ -27,24 +27,34 @@
             <input type="button" value="15%"> 
             <input type="button" value="25%"> 
             <input type="button" value="50%"> 
-            <input type="button" value="Custom"> 
+            <input class="custom" type="button" value="Custom"> 
           </div>
 
           <div class="people-entry">
             <p>Number of People</p>
-            <img src="images/icon-person.svg" alt="person sign"><input class="entry-input" type="text" name="people-entry" id="people-entry">
+            <img src="images/icon-person.svg" alt="person sign"><input class="entry-input" type="text" name="people-entry" id="people-entry" placeholder="0">
           </div>
 
         </div>
 
         <div class="result">
-          Tip Amount
-          / person
-        
-          Total
-          / person
-        
-          Reset
+          <div class="tip">
+            <p class="title">Tip Amount
+              <br>
+              <span class="grey-color">/person</span>
+            </p>
+            <h1 class="amount">$0.00</h1>
+          
+          </div>
+
+          <div class="total">
+            <p class="title">Total
+              <br>
+              <span class="grey-color">/person</span>
+            </p>
+            <h1 class="amount">$0.00</h1>
+          </div>
+          <button class="reset-button">Reset</button>
         </div>
 
 

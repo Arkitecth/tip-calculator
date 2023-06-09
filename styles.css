@@ -2,12 +2,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Space Mono', monospace;
 }
 
 /* Main Styling */
 body {
     background-color: #C5E4E7;
-    font-family: 'Space Mono', monospace;
+  
 }
 
 main {
@@ -36,10 +37,14 @@ main {
 .entry {
     display: grid;
     padding-top: 30px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
     padding-left: 30px;
     justify-content: center;
     color: #5E7A7D;
+}
+
+.entry p {
+    margin-bottom: 10px;
 }
 
 .entry-input {
@@ -48,6 +53,9 @@ main {
     height: 45px;
     border: none;
     border-radius: 2%;
+    text-align: right;
+    font-size: 1.5rem;
+    color: #00474B;
   
 }
 
@@ -55,6 +63,15 @@ main {
     outline: none;
     border: 1px solid #26C2AE;
   
+}
+
+.entry-input::placeholder {
+    text-align: right;
+    font-size: 1.5rem;
+    color:#00474B;
+    opacity: 0.35;
+    padding: 1rem;
+    
 }
 
 /* Bill Styling */
@@ -65,20 +82,160 @@ main {
 
 .bill-entry img {
     position: absolute;
-    top: 38px;
+    top: 50px;
     left: 10px;
 }
 
+/* Tip Entry */
+.tip-entry p {
+    padding: 10px;
+}
+.tip-entry input[type="button"] {
+    width: 117px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#00474B;
+    color: #f3F9FA;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
+}
 
+.tip-entry input[type="button"]:active,.tip-entry input[type="button"]:hover {
+    background-color: #26C2AE;
+}
+.tip-entry input[type="button"]:active {
+    transform: translateY(4px);
+}
 
+.tip-entry input.custom {
+    background-color: #F3F9FA;
+    color:#547878;
+}
 
 /* People Entry Styling */
-
 .people-entry {
     position: relative;
 }
 .people-entry img {
     position: absolute;
-    top: 38px;
+    top: 50px;
     left: 10px;
 }
+
+/* Result Styling */
+.result {
+    display: flex;
+    flex-direction: column;
+    background-color: #00474B;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    margin-top: 30px;
+    width: 413px;
+    height: 417px;
+}
+
+/* Tip Syling */
+.tip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+  
+}
+
+.title {
+    color: #FFFFFF;
+    width: 98px;
+}
+
+.grey-color {
+    color: #7F9D9F;
+}
+
+.amount {
+    color: #26C2AE;
+    font-size: 48px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(-50px);
+}
+
+/* Rest Button */
+.reset-button {
+    width: 333px;
+    height: 48px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #26C2AE;
+    color: #00474B;
+    border: none;
+    border-radius: 2%;
+}
+
+.reset-button:hover, 
+.reset-button:active{
+    background-color: #9FE8DF
+}
+.reset-button:active{
+    transform: translateY(4px);
+}
+
+@media screen and (max-width:956px) {
+
+    main {
+        justify-content: flex-start;
+    }
+    .app {
+        display: grid;
+        height: fit-content;
+        width: 375px;
+
+    }
+    .entry-input {
+        width: 311px;
+    }
+    .tip-entry p {
+        padding: 15px 0;
+    }
+    .tip-entry input[type="button"]  {
+        width: 146.63px;
+    }
+    .people-entry p {
+        padding-top: 20px;
+    }
+
+    .people-entry img {
+        transform: translateY(20px);
+    }
+    .result {
+        width: 328px;
+        margin: 10px auto;
+        grid-row: 2;
+        font-size: 16px;
+        justify-content: space-around;
+        margin-top: 20px;
+        height: 257px;
+        margin-left: 20px;
+    }
+
+    .total {
+        transform: translate(0);
+    }
+
+    .reset-button {
+        width: 281px;
+    }
+
+    .amount {
+        font-size: 32px;
+    }
+}
+
+
