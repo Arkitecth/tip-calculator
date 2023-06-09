@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Styling */
+body {
+    background-color: #C5E4E7;
+    font-family: 'Space Mono', monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    gap: 70px;
+}
+
+/* App Styling */
+
+.app {
+    width: 920px;
+    height: 481px;
+    background-color: white;
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Entry Styling */
+
+.entry {
+    display: grid;
+    padding-top: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 30px;
+    justify-content: center;
+    color: #5E7A7D;
+}
+
+.entry-input {
+    background-color:#f3F9FA;
+    width: 379px;
+    height: 45px;
+    border: none;
+    border-radius: 2%;
+  
+}
+
+.entry-input:focus {
+    outline: none;
+    border: 1px solid #26C2AE;
+  
+}
+
+/* Bill Styling */
+
+.bill-entry {
+    position: relative;
+}
+
+.bill-entry img {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+
+
+
+/* People Entry Styling */
+
+.people-entry {
+    position: relative;
+}
+.people-entry img {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}

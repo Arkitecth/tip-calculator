@@ -1,0 +1,174 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 39,
+            "patches": [
+                {
+                    "date": 1686325516659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686325524778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,7 @@\n   Total\n   / person\n \n   Reset\n-  \n-  <div class=\"attribution\">\n-    Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">Frontend Mentor</a>. \n-    Coded by <a href=\"#\">Your Name Here</a>.\n-  </div>\n+\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326579342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <meta charset=\"UTF-8\">\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n \n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n-  \n+  <link rel=\"stylesheet\" href=\"styles.css\">\n   <title>Tip calculator app</title>\n \n </head>\n <body>\n"
+                },
+                {
+                    "date": 1686326734602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n   <title>Tip calculator app</title>\n \n </head>\n <body>\n+  <img src=\"images/logo.svg\" alt=\"\">\n \n   Bill\n \n   Select Tip %\n"
+                },
+                {
+                    "date": 1686326874656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,16 @@\n   <title>Tip calculator app</title>\n \n </head>\n <body>\n-  <img src=\"images/logo.svg\" alt=\"\">\n+  <img src=\"images/logo.svg\" alt=\"logo\">\n \n-  Bill\n+  <div class=\"container\">\n+    Bill\n \n+\n+  </div>\n+\n   Select Tip %\n   5%\n   10%\n   15%\n"
+                },
+                {
+                    "date": 1686326899823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,14 +11,8 @@\n </head>\n <body>\n   <img src=\"images/logo.svg\" alt=\"logo\">\n \n-  <div class=\"container\">\n-    Bill\n-\n-\n-  </div>\n-\n   Select Tip %\n   5%\n   10%\n   15%\n"
+                },
+                {
+                    "date": 1686326906527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,14 @@\n   <title>Tip calculator app</title>\n \n </head>\n <body>\n-  <img src=\"images/logo.svg\" alt=\"logo\">\n \n+  <main>\n+    <img src=\"images/logo.svg\" alt=\"logo\">\n+  </main>\n+\n+\n   Select Tip %\n   5%\n   10%\n   15%\n"
+                },
+                {
+                    "date": 1686326931084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,27 +12,32 @@\n <body>\n \n   <main>\n     <img src=\"images/logo.svg\" alt=\"logo\">\n+\n   </main>\n \n+  <div class=\"app\">\n+    Select Tip %\n+    5%\n+    10%\n+    15%\n+    25%\n+    50%\n+    Custom\n+  \n+    Number of People\n+  \n+    Tip Amount\n+    / person\n+  \n+    Total\n+    / person\n+  \n+    Reset\n \n-  Select Tip %\n-  5%\n-  10%\n-  15%\n-  25%\n-  50%\n-  Custom\n+  </div>\n \n-  Number of People\n+ \n \n-  Tip Amount\n-  / person\n-\n-  Total\n-  / person\n-\n-  Reset\n-\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326940763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n \n   </main>\n \n   <div class=\"app\">\n-    Select Tip %\n+    <!-- Select Tip %\n     5%\n     10%\n     15%\n     25%\n@@ -32,9 +32,9 @@\n   \n     Total\n     / person\n   \n-    Reset\n+    Reset -->\n \n   </div>\n \n  \n"
+                },
+                {
+                    "date": 1686326994265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,31 +12,31 @@\n <body>\n \n   <main>\n     <img src=\"images/logo.svg\" alt=\"logo\">\n-\n+    <div class=\"app\">\n+      <!-- Select Tip %\n+      5%\n+      10%\n+      15%\n+      25%\n+      50%\n+      Custom\n+    \n+      Number of People\n+    \n+      Tip Amount\n+      / person\n+    \n+      Total\n+      / person\n+    \n+      Reset -->\n+  \n+    </div>\n   </main>\n \n-  <div class=\"app\">\n-    <!-- Select Tip %\n-    5%\n-    10%\n-    15%\n-    25%\n-    50%\n-    Custom\n-  \n-    Number of People\n-  \n-    Tip Amount\n-    / person\n-  \n-    Total\n-    / person\n-  \n-    Reset -->\n \n-  </div>\n \n  \n \n </body>\n"
+                },
+                {
+                    "date": 1686327369663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,28 +12,35 @@\n <body>\n \n   <main>\n     <img src=\"images/logo.svg\" alt=\"logo\">\n-    <div class=\"app\">\n-      <!-- Select Tip %\n-      5%\n-      10%\n-      15%\n-      25%\n-      50%\n-      Custom\n-    \n-      Number of People\n-    \n-      Tip Amount\n-      / person\n-    \n-      Total\n-      / person\n-    \n-      Reset -->\n+      <div class=\"app\">\n+        <div class=\"entry\">\n+\n+        </div>\n+\n+        <div class=\"result\">\n+          \n+        </div>\n+    <!-- Select Tip %\n+    5%\n+    10%\n+    15%\n+    25%\n+    50%\n+    Custom\n   \n-    </div>\n+    Number of People\n+  \n+    Tip Amount\n+    / person\n+  \n+    Total\n+    / person\n+  \n+    Reset -->\n+\n+  </div>\n   </main>\n \n \n \n"
+                },
+                {
+                    "date": 1686327618264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,13 @@\n   <main>\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n-\n+          <p>Bill</p>\n         </div>\n \n         <div class=\"result\">\n-          \n+\n         </div>\n     <!-- Select Tip %\n     5%\n     10%\n"
+                },
+                {
+                    "date": 1686327641446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n           <p>Bill</p>\n+          <input type=\"text\" name=\"\" id=\"\">\n         </div>\n \n         <div class=\"result\">\n \n"
+                },
+                {
+                    "date": 1686327653391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n           <p>Bill</p>\n-          <input type=\"text\" name=\"\" id=\"\">\n+          <input type=\"text\" name=\"Bill\" id=\"Bill\">\n         </div>\n \n         <div class=\"result\">\n \n"
+                },
+                {
+                    "date": 1686327706518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,12 @@\n   <main>\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n+\n           <p>Bill</p>\n-          <input type=\"text\" name=\"Bill\" id=\"Bill\">\n+          <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+          \n         </div>\n \n         <div class=\"result\">\n \n"
+                },
+                {
+                    "date": 1686327719764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,11 +14,13 @@\n   <main>\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n-\n-          <p>Bill</p>\n-          <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+          <div class=\"bill-entry\">\n+            <p>Bill</p>\n+            <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+          </div>\n+       \n           \n         </div>\n \n         <div class=\"result\">\n"
+                },
+                {
+                    "date": 1686327735473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,18 @@\n           <div class=\"bill-entry\">\n             <p>Bill</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n+\n+          <div class=\"bill-entry\">\n+            <p>Bill</p>\n+            <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+          </div>\n+\n+          <div class=\"bill-entry\">\n+            <p>Bill</p>\n+            <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+          </div>\n        \n           \n         </div>\n \n"
+                },
+                {
+                    "date": 1686327748895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n           <div class=\"bill-entry\">\n-            <p>Bill</p>\n+            <p>Select Tip %</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n           <div class=\"bill-entry\">\n@@ -35,9 +35,9 @@\n \n         <div class=\"result\">\n \n         </div>\n-    <!-- Select Tip %\n+    <!-- \n     5%\n     10%\n     15%\n     25%\n"
+                },
+                {
+                    "date": 1686327767216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <p>Bill</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n-          <div class=\"bill-entry\">\n+          <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n"
+                },
+                {
+                    "date": 1686327772917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             <p>Select Tip %</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n-          <div class=\"bill-entry\">\n+          <div class=\"people-entry\">\n             <p>Bill</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n        \n"
+                },
+                {
+                    "date": 1686327808872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,14 @@\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n-            <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+           <input type=\"button\" value=\"5%\"> \n+            10%\n+            15%\n+            25%\n+            50%\n+            Custom\n           </div>\n \n           <div class=\"people-entry\">\n             <p>Bill</p>\n@@ -36,15 +41,10 @@\n         <div class=\"result\">\n \n         </div>\n     <!-- \n-    5%\n-    10%\n-    15%\n-    25%\n-    50%\n-    Custom\n   \n+  \n     Number of People\n   \n     Tip Amount\n     / person\n"
+                },
+                {
+                    "date": 1686327823019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,15 @@\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n            <input type=\"button\" value=\"5%\"> \n-            10%\n+           <input type=\"button\" value=\"10%\"> \n+           <input type=\"button\" value=\"5%\"> \n+           <input type=\"button\" value=\"5%\"> \n+           <input type=\"button\" value=\"5%\"> \n+           <input type=\"button\" value=\"5%\"> \n+           <input type=\"button\" value=\"5%\"> \n+          \n             15%\n             25%\n             50%\n             Custom\n"
+                },
+                {
+                    "date": 1686327830865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,15 +23,15 @@\n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"10%\"> \n+           <input type=\"button\" value=\"15%\"> \n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"5%\"> \n-           <input type=\"button\" value=\"5%\"> \n           \n-            15%\n+     \n             25%\n             50%\n             Custom\n           </div>\n"
+                },
+                {
+                    "date": 1686327841353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,15 +24,15 @@\n             <p>Select Tip %</p>\n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"10%\"> \n            <input type=\"button\" value=\"15%\"> \n+           <input type=\"button\" value=\"    25%\"> \n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"5%\"> \n-           <input type=\"button\" value=\"5%\"> \n           \n      \n-            25%\n+        \n             50%\n             Custom\n           </div>\n \n"
+                },
+                {
+                    "date": 1686327849093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,16 +24,16 @@\n             <p>Select Tip %</p>\n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"10%\"> \n            <input type=\"button\" value=\"15%\"> \n-           <input type=\"button\" value=\"    25%\"> \n+           <input type=\"button\" value=\"25%\"> \n+           <input type=\"button\" value=\"   50%\"> \n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"5%\"> \n-           <input type=\"button\" value=\"5%\"> \n           \n      \n         \n-            50%\n+         \n             Custom\n           </div>\n \n           <div class=\"people-entry\">\n"
+                },
+                {
+                    "date": 1686327856474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,16 +25,16 @@\n            <input type=\"button\" value=\"5%\"> \n            <input type=\"button\" value=\"10%\"> \n            <input type=\"button\" value=\"15%\"> \n            <input type=\"button\" value=\"25%\"> \n-           <input type=\"button\" value=\"   50%\"> \n+           <input type=\"button\" value=\"50%\"> \n+           <input type=\"button\" value=\"    Custom\"> \n            <input type=\"button\" value=\"5%\"> \n-           <input type=\"button\" value=\"5%\"> \n           \n      \n         \n          \n-            Custom\n+        \n           </div>\n \n           <div class=\"people-entry\">\n             <p>Bill</p>\n"
+                },
+                {
+                    "date": 1686327864851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,13 +26,10 @@\n            <input type=\"button\" value=\"10%\"> \n            <input type=\"button\" value=\"15%\"> \n            <input type=\"button\" value=\"25%\"> \n            <input type=\"button\" value=\"50%\"> \n-           <input type=\"button\" value=\"    Custom\"> \n-           <input type=\"button\" value=\"5%\"> \n-          \n-     \n-        \n+           <input type=\"button\" value=\"Custom\"> \n+    \n          \n         \n           </div>\n \n"
+                },
+                {
+                    "date": 1686327890721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,15 +27,12 @@\n            <input type=\"button\" value=\"15%\"> \n            <input type=\"button\" value=\"25%\"> \n            <input type=\"button\" value=\"50%\"> \n            <input type=\"button\" value=\"Custom\"> \n-    \n-         \n-        \n           </div>\n \n           <div class=\"people-entry\">\n-            <p>Bill</p>\n+            <p>Number of People</p>\n             <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n        \n           \n"
+                },
+                {
+                    "date": 1686327962708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <div class=\"app\">\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n             <p>Bill</p>\n-            <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+            <img src=\"images/icon-dollar.svg\" alt=\"\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n"
+                },
+                {
+                    "date": 1686327969816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <div class=\"app\">\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n             <p>Bill</p>\n-            <img src=\"images/icon-dollar.svg\" alt=\"\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+            <img src=\"images/icon-dollar.svg\"> alt=\"\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n"
+                },
+                {
+                    "date": 1686327987000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <div class=\"app\">\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n             <p>Bill</p>\n-            <img src=\"images/icon-dollar.svg\"> alt=\"\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+            <img src=\"images/icon-dollar.svg\" alt=\"dollar sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n"
+                },
+                {
+                    "date": 1686328005368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n-            <input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+            <img src=\"images/icon-person.svg\" alt=\"\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n        \n           \n         </div>\n"
+                },
+                {
+                    "date": 1686328028969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,12 +31,11 @@\n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n-            <img src=\"images/icon-person.svg\" alt=\"\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+            <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n           </div>\n-       \n-          \n+\n         </div>\n \n         <div class=\"result\">\n \n"
+                },
+                {
+                    "date": 1686328073116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,14 +21,14 @@\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n-           <input type=\"button\" value=\"5%\"> \n-           <input type=\"button\" value=\"10%\"> \n-           <input type=\"button\" value=\"15%\"> \n-           <input type=\"button\" value=\"25%\"> \n-           <input type=\"button\" value=\"50%\"> \n-           <input type=\"button\" value=\"Custom\"> \n+            <input type=\"button\" value=\"5%\"> \n+            <input type=\"button\" value=\"10%\"> \n+            <input type=\"button\" value=\"15%\"> \n+            <input type=\"button\" value=\"25%\"> \n+            <input type=\"button\" value=\"50%\"> \n+            <input type=\"button\" value=\"Custom\"> \n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n"
+                },
+                {
+                    "date": 1686328150157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,12 +40,10 @@\n         <div class=\"result\">\n \n         </div>\n     <!-- \n+\n   \n-  \n-    Number of People\n-  \n     Tip Amount\n     / person\n   \n     Total\n"
+                },
+                {
+                    "date": 1686328156513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,20 +37,20 @@\n \n         </div>\n \n         <div class=\"result\">\n-\n+          Tip Amount\n+          / person\n+        \n+          Total\n+          / person\n+        \n+          Reset -->\n         </div>\n     <!-- \n \n   \n-    Tip Amount\n-    / person\n-  \n-    Total\n-    / person\n-  \n-    Reset -->\n+ \n \n   </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1686328162082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,11 +43,10 @@\n         \n           Total\n           / person\n         \n-          Reset -->\n+          Reset\n         </div>\n-    <!-- \n \n   \n  \n \n"
+                },
+                {
+                    "date": 1686328259814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,10 +46,8 @@\n         \n           Reset\n         </div>\n \n-  \n- \n \n   </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1686328562145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n-            <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\">\n+            <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"people-entry\" id=\"Bill\">\n           </div>\n \n         </div>\n \n"
+                },
+                {
+                    "date": 1686328568007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n-            <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"people-entry\" id=\"Bill\">\n+            <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"people-entry\" id=\"people-entry\">\n           </div>\n \n         </div>\n \n"
+                }
+            ],
+            "date": 1686325516659,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n  \n  <title>Tip calculator app</title>\n\n</head>\n<body>\n\n  Bill\n\n  Select Tip %\n  5%\n  10%\n  15%\n  25%\n  50%\n  Custom\n\n  Number of People\n\n  Tip Amount\n  / person\n\n  Total\n  / person\n\n  Reset\n  \n  <div class=\"attribution\">\n    Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">Frontend Mentor</a>. \n    Coded by <a href=\"#\">Your Name Here</a>.\n  </div>\n</body>\n</html>"
+        }
+    ]
+}

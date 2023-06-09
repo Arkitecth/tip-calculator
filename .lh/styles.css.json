@@ -1,0 +1,450 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 108,
+            "patches": [
+                {
+                    "date": 1686326567879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686326604962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,8 @@\n * {\n     margin: 0;\n+    padding: 0;\n+}\n+\n+body {\n+    background-color: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326614800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n     padding: 0;\n }\n \n body {\n-    background-color: ;\n+    background-color: C5E4E7;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326632700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n     padding: 0;\n }\n \n body {\n-    background-color: C5E4E7;\n+    background-color: #C5E4E7;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326966420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,9 @@\n }\n \n body {\n     background-color: #C5E4E7;\n+}\n+\n+.app {\n+    width: 920px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326972393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,6 @@\n }\n \n .app {\n     width: 920px;\n+    height: 481;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686326979028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,7 @@\n }\n \n .app {\n     width: 920px;\n-    height: 481;\n+    height: 481px;\n+    border: 1px solid white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686327003283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,7 @@\n \n .app {\n     width: 920px;\n     height: 481px;\n-    border: 1px solid white;\n+    background-color: white;\n+    border-radius: 10%;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686327012124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,6 @@\n .app {\n     width: 920px;\n     height: 481px;\n     background-color: white;\n-    border-radius: 10%;\n+    border-radius: 5%;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686327021469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,12 @@\n body {\n     background-color: #C5E4E7;\n }\n \n+main {\n+    display: flex;\n+}\n+\n .app {\n     width: 920px;\n     height: 481px;\n     background-color: white;\n"
+                },
+                {
+                    "date": 1686327030514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n }\n \n main {\n     display: flex;\n+    flex-direction: column;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327043703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n \n main {\n     display: flex;\n     flex-direction: column;\n+    justify-content: center;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327050309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n main {\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n+    align-items: center;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327086392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     align-items: center;\n+    align-content: center;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327093572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n }\n \n body {\n     background-color: #C5E4E7;\n+    height: 100vh;\n }\n \n main {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686327131662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     flex-direction: column;\n     justify-content: center;\n     align-items: center;\n     align-content: center;\n+    height: 100vh;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327150041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n }\n \n body {\n     background-color: #C5E4E7;\n-    height: 100vh;\n }\n \n main {\n     display: flex;\n@@ -14,8 +13,10 @@\n     justify-content: center;\n     align-items: center;\n     align-content: center;\n     height: 100vh;\n+    gap: 30px\n+    ;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327171589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,9 @@\n     justify-content: center;\n     align-items: center;\n     align-content: center;\n     height: 100vh;\n-    gap: 30px\n-    ;\n+    gap: 50px;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686327204515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     justify-content: center;\n     align-items: center;\n     align-content: center;\n     height: 100vh;\n-    gap: 50px;\n+    gap: 70px;\n }\n \n .app {\n     width: 920px;\n"
+                },
+                {
+                    "date": 1686328097092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,9 @@\n     width: 920px;\n     height: 481px;\n     background-color: white;\n     border-radius: 5%;\n+}\n+\n+.entry {\n+    display: grid;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328102776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,6 @@\n }\n \n .entry {\n     display: grid;\n+    grid-template-columns: 1fr 1fr;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328134458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,5 @@\n }\n \n .entry {\n     display: grid;\n-    grid-template-columns: 1fr 1fr;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328230358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     width: 920px;\n     height: 481px;\n     background-color: white;\n     border-radius: 5%;\n+    display: grid;\n }\n \n .entry {\n     display: grid;\n"
+                },
+                {
+                    "date": 1686328237649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n     height: 481px;\n     background-color: white;\n     border-radius: 5%;\n     display: grid;\n+    grid-template-columns: 1fr 1fr;\n }\n \n .entry {\n     display: grid;\n"
+                },
+                {
+                    "date": 1686328289468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     margin: 0;\n     padding: 0;\n }\n \n+/* Main Styling */\n body {\n     background-color: #C5E4E7;\n }\n \n"
+                },
+                {
+                    "date": 1686328295594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,10 @@\n     height: 100vh;\n     gap: 70px;\n }\n \n+/* App Styling */\n+\n .app {\n     width: 920px;\n     height: 481px;\n     background-color: white;\n"
+                },
+                {
+                    "date": 1686328304374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,7 +28,9 @@\n     display: grid;\n     grid-template-columns: 1fr 1fr;\n }\n \n+/* Entry Stulign */\n+\n .entry {\n     display: grid;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328312951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,11 @@\n     display: grid;\n     grid-template-columns: 1fr 1fr;\n }\n \n-/* Entry Stulign */\n+/* Entry Styling */\n \n .entry {\n     display: grid;\n\\ No newline at end of file\n-}\n+}\n+\n+/* Main Styling */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328320631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,5 @@\n .entry {\n     display: grid;\n }\n \n-/* Main Styling */\n\\ No newline at end of file\n+/* Bill Styling */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328342410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,8 @@\n .entry {\n     display: grid;\n }\n \n-/* Bill Styling */\n\\ No newline at end of file\n+/* Bill Styling */\n+.bill-entry {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328370068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,8 @@\n /* Entry Styling */\n \n .entry {\n     display: grid;\n+    grid-template-rows: 1fr 1fr 1fr;\n }\n \n-/* Bill Styling */\n-.bill-entry {\n-    \n\\ No newline at end of file\n-}\n+/* Bill Styling */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328389720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,7 +33,8 @@\n \n .entry {\n     display: grid;\n     grid-template-rows: 1fr 1fr 1fr;\n+    padding-left: 30px;\n }\n \n /* Bill Styling */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686328414746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n /* Entry Styling */\n \n .entry {\n     display: grid;\n+    padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n     padding-left: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1686328485135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');\n * {\n     margin: 0;\n     padding: 0;\n }\n"
+                },
+                {
+                    "date": 1686328491968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,10 @@\n \n /* Main Styling */\n body {\n     background-color: #C5E4E7;\n+    font-family: 'Space Mono', monospace;\n+\n }\n \n main {\n     display: flex;\n"
+                },
+                {
+                    "date": 1686328579761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n /* Main Styling */\n body {\n     background-color: #C5E4E7;\n     font-family: 'Space Mono', monospace;\n-\n }\n \n main {\n     display: flex;\n@@ -40,5 +39,9 @@\n     grid-template-rows: 1fr 1fr 1fr;\n     padding-left: 30px;\n }\n \n-/* Bill Styling */\n\\ No newline at end of file\n+.entry-input {\n+    \n+}\n+\n+/* Bill Styling */\n"
+                },
+                {
+                    "date": 1686328607106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,8 @@\n     padding-left: 30px;\n }\n \n .entry-input {\n-    \n+    border-radius: 5%;\n }\n \n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686328616767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,7 +41,8 @@\n }\n \n .entry-input {\n     border-radius: 5%;\n+    border: none;\n }\n \n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686328622572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,10 @@\n     padding-left: 30px;\n }\n \n .entry-input {\n+    border: none;\n     border-radius: 5%;\n-    border: none;\n+  \n }\n \n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686328645029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n }\n \n .entry-input {\n     border: none;\n+    background-color: 9EBBBD;\n     border-radius: 5%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686328683985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n }\n \n .entry-input {\n     border: none;\n-    background-color: 9EBBBD;\n+    background-color:F3F9FA;\n     border-radius: 5%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686328707444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,10 @@\n }\n \n .entry-input {\n     border: none;\n-    background-color:F3F9FA;\n+    background-color:#f3F9FA;\n+    width: 379px;\n     border-radius: 5%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686328721418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n .entry-input {\n     border: none;\n     background-color:#f3F9FA;\n     width: 379px;\n+    height: 48px;\n     border-radius: 5%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686328752415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     border: none;\n     background-color:#f3F9FA;\n     width: 379px;\n     height: 48px;\n-    border-radius: 5%;\n+    border-radius: 2%;\n   \n }\n \n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686328789382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n     display: grid;\n     padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n     padding-left: 30px;\n+    justify-content: center;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686328799697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .entry {\n     display: grid;\n     padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n-    padding-left: 30px;\n+    /* padding-left: 30px; */\n     justify-content: center;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686328806980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .entry {\n     display: grid;\n     padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n-    /* padding-left: 30px; */\n+    padding-left: 30px;\n     justify-content: center;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686328908085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n .entry-input {\n     border: none;\n     background-color:#f3F9FA;\n     width: 379px;\n-    height: 48px;\n+    height: 45px;\n     border-radius: 2%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686328954265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,12 @@\n     padding-left: 30px;\n     justify-content: center;\n }\n \n+.entry img {\n+    \n+}\n+\n .entry-input {\n     border: none;\n     background-color:#f3F9FA;\n     width: 379px;\n"
+                },
+                {
+                    "date": 1686328960324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     justify-content: center;\n }\n \n .entry img {\n-    \n+    position: absolute;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686328977585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,9 @@\n }\n \n .entry img {\n     position: absolute;\n+    top: 0;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686328982977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,10 @@\n \n .entry img {\n     position: absolute;\n     top: 0;\n+    left: 30px;\n+    right: 0;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686328994486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,8 @@\n .entry img {\n     position: absolute;\n     top: 0;\n     left: 30px;\n-    right: 0;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329002515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n     padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n     padding-left: 30px;\n     justify-content: center;\n+    position: relative;\n }\n \n .entry img {\n     position: absolute;\n"
+                },
+                {
+                    "date": 1686329010133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,8 @@\n }\n \n .entry img {\n     position: absolute;\n-    top: 0;\n     left: 30px;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686329016010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,8 @@\n }\n \n .entry img {\n     position: absolute;\n-    left: 30px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329026306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n }\n \n .entry img {\n     position: absolute;\n+    top: 20px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329035934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n }\n \n .entry img {\n     position: absolute;\n-    top: 20px;\n+    top: 10px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329070392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,11 +41,10 @@\n     justify-content: center;\n     position: relative;\n }\n \n-.entry img {\n+.bill-entry img {\n     position: absolute;\n-    top: 10px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329079422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n+    top: 20px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329085129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,8 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 20px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329095765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n+    bottom: 10px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329117237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    bottom: 10px;\n+    left: 30px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329126990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    left: 30px;\n+    left: 0;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329132040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,8 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    left: 0;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329150726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,12 @@\n     justify-content: center;\n     position: relative;\n }\n \n+.bill-entry {\n+    position: relative;\n+}\n+\n .bill-entry img {\n     position: absolute;\n }\n \n"
+                },
+                {
+                    "date": 1686329162839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,17 +38,17 @@\n     padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n     padding-left: 30px;\n     justify-content: center;\n-    position: relative;\n }\n \n .bill-entry {\n     position: relative;\n }\n \n .bill-entry img {\n     position: absolute;\n+    top: 20px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329169807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 20px;\n+    bottom: 20px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329175714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    bottom: 20px;\n+    bottom: 10px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329182087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    bottom: 10px;\n+    top: 30px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329190956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,9 @@\n \n .bill-entry img {\n     position: absolute;\n     top: 30px;\n+    left: 40px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329200862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n \n .bill-entry img {\n     position: absolute;\n     top: 30px;\n-    left: 40px;\n+    left: 0;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329210450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n \n .bill-entry img {\n     position: absolute;\n     top: 30px;\n-    left: 0;\n+    left: 10px;\n }\n \n .entry-input {\n     border: none;\n"
+                },
+                {
+                    "date": 1686329216601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 30px;\n+    top: 40px;\n     left: 10px;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686329225532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 40px;\n+    top: 20px;\n     left: 10px;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686329244303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 20px;\n+    top: 24px;\n     left: 10px;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686329250468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 24px;\n+    top: 40px;\n     left: 10px;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686329265327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n }\n \n .bill-entry img {\n     position: absolute;\n-    top: 40px;\n+    top: 38px;\n     left: 10px;\n }\n \n .entry-input {\n"
+                },
+                {
+                    "date": 1686329288515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,17 @@\n     padding-left: 30px;\n     justify-content: center;\n }\n \n+.entry-input {\n+    border: none;\n+    background-color:#f3F9FA;\n+    width: 379px;\n+    height: 45px;\n+    border-radius: 2%;\n+  \n+}\n+\n .bill-entry {\n     position: relative;\n }\n \n@@ -50,14 +59,7 @@\n     top: 38px;\n     left: 10px;\n }\n \n-.entry-input {\n-    border: none;\n-    background-color:#f3F9FA;\n-    width: 379px;\n-    height: 45px;\n-    border-radius: 2%;\n-  \n-}\n \n+\n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686329294816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,10 @@\n     border-radius: 2%;\n   \n }\n \n+/* Bill Styling */\n+\n .bill-entry {\n     position: relative;\n }\n \n@@ -58,8 +60,4 @@\n     position: absolute;\n     top: 38px;\n     left: 10px;\n }\n-\n-\n-\n-/* Bill Styling */\n"
+                },
+                {
+                    "date": 1686329340924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,12 @@\n     border-radius: 2%;\n   \n }\n \n+.entry-input:hover {\n+    \n+}\n+\n /* Bill Styling */\n \n .bill-entry {\n     position: relative;\n"
+                },
+                {
+                    "date": 1686329356845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n   \n }\n \n .entry-input:hover {\n-    \n+    outline: #00474B;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686329423183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,10 +49,10 @@\n     border-radius: 2%;\n   \n }\n \n-.entry-input:hover {\n-    outline: #00474B;\n+.entry-input:focus {\n+    \n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686329434961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n   \n }\n \n .entry-input:focus {\n-    \n+    outline: green;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686329476653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n   \n }\n \n .entry-input:focus {\n-    outline: green;\n+    outline: #00474B;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686329507196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n     border-radius: 2%;\n   \n }\n \n-.entry-input:focus {\n+input:focus {\n     outline: #00474B;\n }\n \n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686331092878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n     border-radius: 2%;\n   \n }\n \n-input:focus {\n+.entry-input:focus {\n     outline: #00474B;\n }\n \n /* Bill Styling */\n"
+                },
+                {
+                    "date": 1686332779472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,8 @@\n     justify-content: center;\n }\n \n .entry-input {\n-    border: none;\n     background-color:#f3F9FA;\n     width: 379px;\n     height: 45px;\n     border-radius: 2%;\n"
+                },
+                {
+                    "date": 1686332793628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n   \n }\n \n .entry-input:focus {\n-    outline: #00474B;\n+    outline: red\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332806210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,14 +44,15 @@\n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n     height: 45px;\n+    border: none;\n     border-radius: 2%;\n   \n }\n \n .entry-input:focus {\n-    outline: red\n+    outline: red; \n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332844504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,9 @@\n \n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n-    height: 45px;\n-    border: none;\n+    height: 45px\n     border-radius: 2%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686332849968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,10 @@\n \n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n-    height: 45px\n+    height: 45px;\n+    outline: none;\n     border-radius: 2%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686332866197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n .entry-input {\n     background-color:#f3F9FA;\n     width: 379px;\n     height: 45px;\n-    outline: none;\n+    border: none;\n     border-radius: 2%;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686332888852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n   \n }\n \n .entry-input:focus {\n-    outline: red; \n+    border: 1px solid #C5E4E7;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332924014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n   \n }\n \n .entry-input:focus {\n-    border: 1px solid #C5E4E7;\n+    border: 1px solid #26C2AE;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332935361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,9 @@\n }\n \n .entry-input:focus {\n     border: 1px solid #26C2AE;\n+    outline: #26C2AE;\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332950342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n }\n \n .entry-input:focus {\n     border: 1px solid #26C2AE;\n-    outline: #26C2AE;\n+    outline: none\n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332962092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,10 +50,11 @@\n   \n }\n \n .entry-input:focus {\n+    outline: none;\n     border: 1px solid #26C2AE;\n-    outline: none\n+  \n }\n \n /* Bill Styling */\n \n"
+                },
+                {
+                    "date": 1686332970082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,8 @@\n   \n }\n \n .entry-input:focus {\n-    outline: none;\n     border: 1px solid #26C2AE;\n   \n }\n \n"
+                },
+                {
+                    "date": 1686333036812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,16 +50,18 @@\n   \n }\n \n .entry-input:focus {\n+    outline: none;\n     border: 1px solid #26C2AE;\n   \n }\n \n /* Bill Styling */\n \n .bill-entry {\n     position: relative;\n+    color: #5E7A7D;\n }\n \n .bill-entry img {\n     position: absolute;\n"
+                },
+                {
+                    "date": 1686333045806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n     padding-top: 30px;\n     grid-template-rows: 1fr 1fr 1fr;\n     padding-left: 30px;\n     justify-content: center;\n+    color: #5E7A7D;\n }\n \n .entry-input {\n     background-color:#f3F9FA;\n@@ -59,9 +60,9 @@\n /* Bill Styling */\n \n .bill-entry {\n     position: relative;\n-    color: #5E7A7D;\n+   \n }\n \n .bill-entry img {\n     position: absolute;\n"
+                },
+                {
+                    "date": 1686333062805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,8 @@\n /* Bill Styling */\n \n .bill-entry {\n     position: relative;\n-   \n }\n \n .bill-entry img {\n     position: absolute;\n"
+                },
+                {
+                    "date": 1686333125304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,12 @@\n .bill-entry {\n     position: relative;\n }\n \n+.people-entry {\n+    \n+}\n+\n .bill-entry img {\n     position: absolute;\n     top: 38px;\n     left: 10px;\n"
+                },
+                {
+                    "date": 1686333144758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,10 +62,12 @@\n .bill-entry {\n     position: relative;\n }\n \n-.people-entry {\n-    \n+.people-entry img {\n+    position: absolute;\n+    top: 38px;\n+    left: 10px;\n }\n \n .bill-entry img {\n     position: absolute;\n"
+                },
+                {
+                    "date": 1686333150926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,15 +62,15 @@\n .bill-entry {\n     position: relative;\n }\n \n-.people-entry img {\n+.bill-entry img {\n     position: absolute;\n     top: 38px;\n     left: 10px;\n }\n \n-.bill-entry img {\n+.people-entry img {\n     position: absolute;\n     top: 38px;\n     left: 10px;\n }\n"
+                },
+                {
+                    "date": 1686333163426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,9 @@\n     top: 38px;\n     left: 10px;\n }\n \n+\n .people-entry img {\n     position: absolute;\n     top: 38px;\n     left: 10px;\n"
+                },
+                {
+                    "date": 1686333180292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,11 @@\n     top: 38px;\n     left: 10px;\n }\n \n-\n+.people-entry {\n+    position: absolute;\n+}\n .people-entry img {\n     position: absolute;\n     top: 38px;\n     left: 10px;\n"
+                },
+                {
+                    "date": 1686333187330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n     left: 10px;\n }\n \n .people-entry {\n-    position: absolute;\n+    position: relative;\n }\n .people-entry img {\n     position: absolute;\n     top: 38px;\n"
+                },
+                {
+                    "date": 1686333212546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,11 @@\n     top: 38px;\n     left: 10px;\n }\n \n+\n+/* People Entry Styling */\n+\n .people-entry {\n     position: relative;\n }\n .people-entry img {\n"
+                }
+            ],
+            "date": 1686326567879,
+            "name": "Commit-0",
+            "content": "* {\n    margin: 0;\n}"
+        }
+    ]
+}
