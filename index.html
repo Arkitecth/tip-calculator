@@ -16,22 +16,25 @@
       <div class="app">
         <div class="entry">
           <div class="bill-entry">
-            <p>Bill</p>
+            <p>Bill   <span class="error-message">Please enter a correct bill</span> </p>
             <img src="images/icon-dollar.svg" alt="dollar sign"><input class="entry-input" type="text" name="Bill" id="Bill" placeholder="0"> 
+          
           </div>
 
           <div class="tip-entry">
             <p>Select Tip %</p>
-            <input type="button" value="5%"> 
-            <input type="button" value="10%"> 
-            <input type="button" value="15%"> 
-            <input type="button" value="25%"> 
-            <input type="button" value="50%"> 
-            <input class="custom" type="button" value="Custom"> 
+            <input class="tip-button" type="button" value="5%"> 
+            <input class="tip-button"type="button" value="10%"> 
+            <input class="tip-button" type="button" value="15%"> 
+            <input class="tip-button" type="button" value="25%"> 
+            <input class="tip-button" type="button" value="50%"> 
+            <input class="custom" type="text" placeholder="Custom"> 
           </div>
 
           <div class="people-entry">
-            <p>Number of People</p>
+            <p>Number of People
+              <span class="error-message">Can't be Zero</span>
+            </p>
             <img src="images/icon-person.svg" alt="person sign"><input class="entry-input" type="text" name="people-entry" id="people-entry" placeholder="0">
           </div>
 
@@ -60,9 +63,7 @@
 
   </div>
   </main>
-
-
-
+  <script src="script.js"></script>
  
 
 </body>

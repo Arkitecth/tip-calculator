@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 417,
+            "activePatchIndex": 455,
             "patches": [
                 {
                     "date": 1686326567879,
@@ -1676,6 +1676,158 @@
                 {
                     "date": 1686343677038,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,9 +189,9 @@\n \n @media screen and (max-width:956px) {\n \n     main {\n-        justify-content: fle;\n+        justify-content: flex-start;\n     }\n     .app {\n         display: grid;\n         height: fit-content;\n"
+                },
+                {
+                    "date": 1686344384839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,8 +85,12 @@\n     top: 50px;\n     left: 10px;\n }\n \n+.bill-entry p {\n+    \n+}\n+\n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n }\n"
+                },
+                {
+                    "date": 1686344398157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,11 +85,9 @@\n     top: 50px;\n     left: 10px;\n }\n \n-.bill-entry p {\n-    \n-}\n+.bill-entry.\n \n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n"
+                },
+                {
+                    "date": 1686344407114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,11 @@\n     top: 50px;\n     left: 10px;\n }\n \n-.bill-entry.\n+.bill-entry.error-message {\n+    color: red;\n+}\n \n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n"
+                },
+                {
+                    "date": 1686344464411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     top: 50px;\n     left: 10px;\n }\n \n-.bill-entry.error-message {\n+p.error-message {\n     color: red;\n }\n \n /* Tip Entry */\n"
+                },
+                {
+                    "date": 1686344491255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,8 +88,11 @@\n \n p.error-message {\n     color: red;\n }\n+.toggle {\n+    display: none;\n+}\n \n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n"
+                },
+                {
+                    "date": 1686344506336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n p.error-message {\n     color: red;\n }\n .toggle {\n-    display: none;\n+    display: block;\n }\n \n /* Tip Entry */\n .tip-entry p {\n"
+                },
+                {
+                    "date": 1686344727957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,8 +87,9 @@\n }\n \n p.error-message {\n     color: red;\n+    display: none;\n }\n .toggle {\n     display: block;\n }\n@@ -96,9 +97,10 @@\n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n }\n-.tip-entry input[type=\"button\"] {\n+.tip-entry input[type=\"button\"] \n+.tip-entry input[type=\"text\"]{\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n"
+                },
+                {
+                    "date": 1686344761516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,10 +97,9 @@\n /* Tip Entry */\n .tip-entry p {\n     padding: 10px;\n }\n-.tip-entry input[type=\"button\"] \n-.tip-entry input[type=\"text\"]{\n+.tip-entry input[type=\"button\"] {\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n     background-color:#00474B;\n"
+                },
+                {
+                    "date": 1686344830838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,11 +118,24 @@\n }\n \n .tip-entry input.custom {\n     background-color: #F3F9FA;\n+    width: 117px;\n+    padding: 10px;\n+    margin-bottom: 10px;\n+    background-color:#00474B;\n+    color: #f3F9FA;\n+    font-size: 1.5rem;\n+    border: none;\n+    border-radius: 5%;\n+    font-weight: 700;\n     color:#547878;\n }\n \n+.tip-entry input.custom:active {\n+    \n+}\n+\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686344845798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,8 @@\n     background-color: #F3F9FA;\n     width: 117px;\n     padding: 10px;\n     margin-bottom: 10px;\n-    background-color:#00474B;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n     border: none;\n     border-radius: 5%;\n@@ -131,9 +130,9 @@\n     color:#547878;\n }\n \n .tip-entry input.custom:active {\n-    \n+\n }\n \n /* People Entry Styling */\n .people-entry {\n"
+                },
+                {
+                    "date": 1686344859363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,9 +118,9 @@\n }\n \n .tip-entry input.custom {\n     background-color: #F3F9FA;\n-    width: 117px;\n+    width: 110px;\n     padding: 10px;\n     margin-bottom: 10px;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686344866096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,9 +118,9 @@\n }\n \n .tip-entry input.custom {\n     background-color: #F3F9FA;\n-    width: 110px;\n+    width: 100px;\n     padding: 10px;\n     margin-bottom: 10px;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686344876520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,8 +119,9 @@\n \n .tip-entry input.custom {\n     background-color: #F3F9FA;\n     width: 100px;\n+    text-align: right;\n     padding: 10px;\n     margin-bottom: 10px;\n     color: #f3F9FA;\n     font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1686344957406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,11 @@\n     border-radius: 5%;\n     font-weight: 700;\n }\n \n-.tip-entry input[type=\"button\"]:active,.tip-entry input[type=\"button\"]:hover {\n+.tip-entry input[type=\"button\"]:active,\n+.tip-entry input[type=\"button\"]:hover, \n+.tip-entry input.custom:active {\n     background-color: #26C2AE;\n }\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n"
+                },
+                {
+                    "date": 1686344974174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,10 +110,9 @@\n     font-weight: 700;\n }\n \n .tip-entry input[type=\"button\"]:active,\n-.tip-entry input[type=\"button\"]:hover, \n-.tip-entry input.custom:active {\n+.tip-entry input[type=\"button\"]:hover,  {\n     background-color: #26C2AE;\n }\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n"
+                },
+                {
+                    "date": 1686344979881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n     font-weight: 700;\n }\n \n .tip-entry input[type=\"button\"]:active,\n-.tip-entry input[type=\"button\"]:hover,  {\n+.tip-entry input[type=\"button\"]:hover {\n     background-color: #26C2AE;\n }\n .tip-entry input[type=\"button\"]:active {\n     transform: translateY(4px);\n"
+                },
+                {
+                    "date": 1686344993883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n     color:#547878;\n }\n \n .tip-entry input.custom:active {\n-\n+    border: 1px solid #26C2AE;;\n }\n \n /* People Entry Styling */\n .people-entry {\n"
+                },
+                {
+                    "date": 1686345001592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n     color:#547878;\n }\n \n .tip-entry input.custom:active {\n-    border: 1px solid #26C2AE;;\n+    border: 1px solid #26C2AE;\n }\n \n /* People Entry Styling */\n .people-entry {\n"
+                },
+                {
+                    "date": 1686345027789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n     color: #00474B;\n   \n }\n \n-.entry-input:focus {\n+.entry-input:focus{\n     outline: none;\n     border: 1px solid #26C2AE;\n   \n }\n@@ -132,8 +132,9 @@\n     color:#547878;\n }\n \n .tip-entry input.custom:active {\n+    outline: none;\n     border: 1px solid #26C2AE;\n }\n \n /* People Entry Styling */\n"
+                },
+                {
+                    "date": 1686345040375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,10 @@\n     color: #00474B;\n   \n }\n \n-.entry-input:focus{\n+.entry-input:focus, \n+.tip-entry input.custom:focus{\n     outline: none;\n     border: 1px solid #26C2AE;\n   \n }\n"
+                },
+                {
+                    "date": 1686345127212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,9 +86,9 @@\n     top: 50px;\n     left: 10px;\n }\n \n-p.error-message {\n+error-message {\n     color: red;\n     display: none;\n }\n .toggle {\n@@ -132,13 +132,10 @@\n     font-weight: 700;\n     color:#547878;\n }\n \n-.tip-entry input.custom:active {\n-    outline: none;\n-    border: 1px solid #26C2AE;\n-}\n \n+\n /* People Entry Styling */\n .people-entry {\n     position: relative;\n }\n"
+                },
+                {
+                    "date": 1686345134737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,9 @@\n }\n \n error-message {\n     color: red;\n-    display: none;\n+    /* display: none; */\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345146065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,12 +86,16 @@\n     top: 50px;\n     left: 10px;\n }\n \n-error-message {\n+p.error-message {\n     color: red;\n-    /* display: none; */\n+    display: none;\n }\n+p.error-message {\n+    color: red;\n+    display: none;\n+}\n .toggle {\n     display: block;\n }\n \n"
+                },
+                {
+                    "date": 1686345152128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n p.error-message {\n     color: red;\n     display: none;\n }\n-p.error-message {\n+span.error-message {\n     color: red;\n     display: none;\n }\n .toggle {\n"
+                },
+                {
+                    "date": 1686345158935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,8 @@\n     display: none;\n }\n span.error-message {\n     color: red;\n-    display: none;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345166444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,8 +92,9 @@\n     display: none;\n }\n span.error-message {\n     color: red;\n+    text-align: right;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345175866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,9 @@\n }\n span.error-message {\n     color: red;\n     text-align: right;\n+    padding-left: 20px;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345185588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n }\n span.error-message {\n     color: red;\n     text-align: right;\n-    padding-left: 20px;\n+    padding-left: 60px;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345190839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n }\n span.error-message {\n     color: red;\n     text-align: right;\n-    padding-left: 60px;\n+    padding-left: 90px;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345197173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n }\n span.error-message {\n     color: red;\n     text-align: right;\n-    padding-left: 90px;\n+    padding-left: 80px;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345263776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,16 +86,13 @@\n     top: 50px;\n     left: 10px;\n }\n \n-p.error-message {\n-    color: red;\n-    display: none;\n-}\n span.error-message {\n     color: red;\n     text-align: right;\n     padding-left: 80px;\n+    display: none;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345268986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n span.error-message {\n     color: red;\n     text-align: right;\n     padding-left: 80px;\n-    display: none;\n+    /* display: none; */\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345274168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n span.error-message {\n     color: red;\n     text-align: right;\n     padding-left: 80px;\n-    /* display: none; */\n+    display: none;\n }\n .toggle {\n     display: block;\n }\n"
+                },
+                {
+                    "date": 1686345294474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n     text-align: right;\n     padding-left: 80px;\n     display: none;\n }\n-.toggle {\n+.toggle-inline {\n     display: block;\n }\n \n /* Tip Entry */\n"
+                },
+                {
+                    "date": 1686346985317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n     padding-left: 80px;\n     display: none;\n }\n .toggle-inline {\n-    display: block;\n+    display: inline !mportant;\n }\n \n /* Tip Entry */\n .tip-entry p {\n"
+                },
+                {
+                    "date": 1686346990990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n     padding-left: 80px;\n     display: none;\n }\n .toggle-inline {\n-    display: inline !mportant;\n+    display: inline !important;\n }\n \n /* Tip Entry */\n .tip-entry p {\n"
+                },
+                {
+                    "date": 1686350874124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,12 +113,13 @@\n     font-weight: 700;\n }\n \n .tip-entry input[type=\"button\"]:active,\n+.tip-entry input[type=\"button\"]:enabled,\n .tip-entry input[type=\"button\"]:hover {\n     background-color: #26C2AE;\n }\n-.tip-entry input[type=\"button\"]:active {\n+.tip-entry input[type=\"button\"] {\n     transform: translateY(4px);\n }\n \n .tip-entry input.custom {\n"
+                },
+                {
+                    "date": 1686350950147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,9 +113,8 @@\n     font-weight: 700;\n }\n \n .tip-entry input[type=\"button\"]:active,\n-.tip-entry input[type=\"button\"]:enabled,\n .tip-entry input[type=\"button\"]:hover {\n     background-color: #26C2AE;\n }\n .tip-entry input[type=\"button\"] {\n"
                 }
             ],
             "date": 1686326567879,

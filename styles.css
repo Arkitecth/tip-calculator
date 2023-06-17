@@ -59,7 +59,8 @@ main {
   
 }
 
-.entry-input:focus {
+.entry-input:focus, 
+.tip-entry input.custom:focus{
     outline: none;
     border: 1px solid #26C2AE;
   
@@ -86,6 +87,16 @@ main {
     left: 10px;
 }
 
+span.error-message {
+    color: red;
+    text-align: right;
+    padding-left: 80px;
+    display: none;
+}
+.toggle-inline {
+    display: inline !important;
+}
+
 /* Tip Entry */
 .tip-entry p {
     padding: 10px;
@@ -102,17 +113,29 @@ main {
     font-weight: 700;
 }
 
-.tip-entry input[type="button"]:active,.tip-entry input[type="button"]:hover {
+.tip-entry input[type="button"]:active,
+.tip-entry input[type="button"]:hover {
     background-color: #26C2AE;
 }
-.tip-entry input[type="button"]:active {
+.tip-entry input[type="button"] {
     transform: translateY(4px);
 }
 
 .tip-entry input.custom {
     background-color: #F3F9FA;
+    width: 100px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #f3F9FA;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
     color:#547878;
 }
+
+
 
 /* People Entry Styling */
 .people-entry {

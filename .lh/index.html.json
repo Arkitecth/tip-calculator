@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 70,
+            "activePatchIndex": 81,
             "patches": [
                 {
                     "date": 1686325516659,
@@ -288,6 +288,50 @@
                 {
                     "date": 1686337525017,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,16 +42,16 @@\n             <p class=\"title\">Tip Amount\n               <br>\n               <span class=\"grey-color\">/person</span>\n             </p>\n-            <h1>$0.00</h1>\n+            <h1 class=\"amount\">$0.00</h1>\n           \n           </div>\n \n           <div class=\"total\">\n             <p class=\"title\">Total\n               <br>\n-              <span>/person</span>\n+              <span class=\"grey-color\">/person</span>\n             </p>\n             <h1>$0.00</h1>\n           </div>\n           <button class=\"reset-button\">Reset</button>\n"
+                },
+                {
+                    "date": 1686344335610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n+            <p>Pleas enter correct message</p>\n             <input type=\"button\" value=\"5%\"> \n             <input type=\"button\" value=\"10%\"> \n             <input type=\"button\" value=\"15%\"> \n             <input type=\"button\" value=\"25%\"> \n@@ -51,9 +52,9 @@\n             <p class=\"title\">Total\n               <br>\n               <span class=\"grey-color\">/person</span>\n             </p>\n-            <h1>$0.00</h1>\n+            <h1 class=\"amount\">$0.00</h1>\n           </div>\n           <button class=\"reset-button\">Reset</button>\n         </div>\n \n"
+                },
+                {
+                    "date": 1686344342372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n-            <p>Pleas enter correct message</p>\n+            <p class=\"error-message\">Please enter correct message</p>\n             <input type=\"button\" value=\"5%\"> \n             <input type=\"button\" value=\"10%\"> \n             <input type=\"button\" value=\"15%\"> \n             <input type=\"button\" value=\"25%\"> \n"
+                },
+                {
+                    "date": 1686344363613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,13 +17,13 @@\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n             <p>Bill</p>\n             <img src=\"images/icon-dollar.svg\" alt=\"dollar sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\" placeholder=\"0\"> \n+            <p class=\"error-message\">Please enter correct message</p>\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n-            <p class=\"error-message\">Please enter correct message</p>\n             <input type=\"button\" value=\"5%\"> \n             <input type=\"button\" value=\"10%\"> \n             <input type=\"button\" value=\"15%\"> \n             <input type=\"button\" value=\"25%\"> \n"
+                },
+                {
+                    "date": 1686344477016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n             <p>Bill</p>\n             <img src=\"images/icon-dollar.svg\" alt=\"dollar sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\" placeholder=\"0\"> \n-            <p class=\"error-message\">Please enter correct message</p>\n+            <p class=\"error-message\">Please enter correct bill</p>\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n"
+                },
+                {
+                    "date": 1686344654610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n             <input type=\"button\" value=\"10%\"> \n             <input type=\"button\" value=\"15%\"> \n             <input type=\"button\" value=\"25%\"> \n             <input type=\"button\" value=\"50%\"> \n-            <input class=\"custom\" type=\"button\" value=\"Custom\"> \n+            <input class=\"custom\" type=\"text value=\"Custom\"> \n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n"
+                },
+                {
+                    "date": 1686344675085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n             <input type=\"button\" value=\"10%\"> \n             <input type=\"button\" value=\"15%\"> \n             <input type=\"button\" value=\"25%\"> \n             <input type=\"button\" value=\"50%\"> \n-            <input class=\"custom\" type=\"text value=\"Custom\"> \n+            <input class=\"custom\" type=\"text\" placeholder=\"Custom\"> \n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People</p>\n"
+                },
+                {
+                    "date": 1686345108121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n             <input class=\"custom\" type=\"text\" placeholder=\"Custom\"> \n           </div>\n \n           <div class=\"people-entry\">\n-            <p>Number of People</p>\n+            <p>Number of People\n+              <span class=\"error-message\">Can't be Zerp</span>\n+            </p>\n             <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"people-entry\" id=\"people-entry\" placeholder=\"0\">\n           </div>\n \n         </div>\n"
+                },
+                {
+                    "date": 1686345255110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,11 @@\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n-            <p>Bill</p>\n+            <p>Bill   <span class=\"error-message\">Please enter correct bill</span></p>\n             <img src=\"images/icon-dollar.svg\" alt=\"dollar sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\" placeholder=\"0\"> \n-            <p class=\"error-message\">Please enter correct bill</p>\n+          \n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n@@ -32,9 +32,9 @@\n           </div>\n \n           <div class=\"people-entry\">\n             <p>Number of People\n-              <span class=\"error-message\">Can't be Zerp</span>\n+              <span class=\"error-message\">Can't be Zero</span>\n             </p>\n             <img src=\"images/icon-person.svg\" alt=\"person sign\"><input class=\"entry-input\" type=\"text\" name=\"people-entry\" id=\"people-entry\" placeholder=\"0\">\n           </div>\n \n"
+                },
+                {
+                    "date": 1686345961317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     <img src=\"images/logo.svg\" alt=\"logo\">\n       <div class=\"app\">\n         <div class=\"entry\">\n           <div class=\"bill-entry\">\n-            <p>Bill   <span class=\"error-message\">Please enter correct bill</span></p>\n+            <p>Bill   <span class=\"error-message\">Please enter a correct bill</span> </p>\n             <img src=\"images/icon-dollar.svg\" alt=\"dollar sign\"><input class=\"entry-input\" type=\"text\" name=\"Bill\" id=\"Bill\" placeholder=\"0\"> \n           \n           </div>\n \n"
+                },
+                {
+                    "date": 1686346240590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,11 +62,9 @@\n \n \n   </div>\n   </main>\n-\n-\n-\n+  <script src=\"script.js\"></script>\n  \n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686348115614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,13 +22,13 @@\n           </div>\n \n           <div class=\"tip-entry\">\n             <p>Select Tip %</p>\n-            <input type=\"button\" value=\"5%\"> \n-            <input type=\"button\" value=\"10%\"> \n-            <input type=\"button\" value=\"15%\"> \n-            <input type=\"button\" value=\"25%\"> \n-            <input type=\"button\" value=\"50%\"> \n+            <input class=\"tip-button\" type=\"button\" value=\"5%\"> \n+            <input class=\"tip-button\"type=\"button\" value=\"10%\"> \n+            <input class=\"tip-button\" type=\"button\" value=\"15%\"> \n+            <input class=\"tip-button\" type=\"button\" value=\"25%\"> \n+            <input class=\"tip-button\" type=\"button\" value=\"50%\"> \n             <input class=\"custom\" type=\"text\" placeholder=\"Custom\"> \n           </div>\n \n           <div class=\"people-entry\">\n"
                 }
             ],
             "date": 1686325516659,

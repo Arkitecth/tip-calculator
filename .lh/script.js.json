@@ -1,0 +1,1206 @@
+{
+    "sourceFile": "script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 297,
+            "patches": [
+                {
+                    "date": 1686344518396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686345306365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n // Select Elements \n+\n //Collect Input \n //Dynamically Corrrect Users \n\\ No newline at end of file\n-//Dunamically Update Elements \n+//Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345370167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Select Elements \n-\n+const bill = document.querySelector(\"#Bill.entry-input\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345376948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Select Elements \n-const bill = document.querySelector(\"#Bill.entry-input\")\n+const bill = document.querySelector(\"#Bill.entry-input\"); \n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345425905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill.entry-input\"); \n+const numPeople = document.querySelector(\"#people-entry\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345455480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n // Select Elements \n-const bill = document.querySelector(\"#Bill.entry-input\"); \n+const bill = document.querySelector(\"#Bill\"); \n+const customTip = document.querySelector(\"input.custom\")\n const numPeople = document.querySelector(\"#people-entry\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345466153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n-const customTip = document.querySelector(\"input.custom\")\n-const numPeople = document.querySelector(\"#people-entry\")\n+const customTip = document.querySelector(\"input.custom\"); \n+const numPeople = document.querySelector(\"#people-entry\"); \n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345561118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n+const tip = document.querySelector(\"tip-entry input[type=\"button\"]\")\n const numPeople = document.querySelector(\"#people-entry\"); \n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345570910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelector(\"tip-entry input[type=\"button\"]\")\n+const tip = document.querySelector(\"tip-entry input[type='button']\")\n const numPeople = document.querySelector(\"#people-entry\"); \n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345576744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelector(\"tip-entry input[type='button']\")\n+const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345616382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,8 @@\n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n+const amount = document.querySelector(\"h1.amount\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345680488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n-const amount = document.querySelector(\"h1.amount\")\n+const amount = document.querySelector(\"tip amount\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345699969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n-const amount = document.querySelector(\"tip amount\")\n+const tipAmount = document.querySelector(\"tip amount\")\n+const totalAmount = document.querySelector(\"total amount\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345717005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n-const tipAmount = document.querySelector(\"tip amount\")\n-const totalAmount = document.querySelector(\"total amount\")\n+const tipAmount = document.querySelector(\".tip .amount\")\n+const totalAmount = document.querySelector(\".total .amount\")\n //Collect Input \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345756941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n-const tipAmount = document.querySelector(\".tip .amount\")\n-const totalAmount = document.querySelector(\".total .amount\")\n+const tipAmount = document.querySelector(\".tip .amount\");\n+const totalAmount = document.querySelector(\".total .amount\");\n //Collect Input \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686345831177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n+const billErrorMessage = document.querySelector(\".tip\")\n const totalAmount = document.querySelector(\".total .amount\");\n //Collect Input \n \n //Dynamically Corrrect Users \n"
+                },
+                {
+                    "date": 1686345838836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n-const billErrorMessage = document.querySelector(\".tip\")\n+const billErrorMessage = document.querySelector(\".bill \")\n const totalAmount = document.querySelector(\".total .amount\");\n //Collect Input \n \n //Dynamically Corrrect Users \n"
+                },
+                {
+                    "date": 1686345853092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n-const billErrorMessage = document.querySelector(\".bill \")\n+const billErrorMessage = document.querySelector(\".bill-entry .error-message\")\n const totalAmount = document.querySelector(\".total .amount\");\n //Collect Input \n \n //Dynamically Corrrect Users \n"
+                },
+                {
+                    "date": 1686346034151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n-const billErrorMessage = document.querySelector(\".bill-entry .error-message\")\n+const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n+const billErrorMessage = document.querySelector(\".people-entry .error-message\")\n const totalAmount = document.querySelector(\".total .amount\");\n //Collect Input \n \n //Dynamically Corrrect Users \n"
+                },
+                {
+                    "date": 1686346045388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n-const billErrorMessage = document.querySelector(\".people-entry .error-message\")\n+const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n const totalAmount = document.querySelector(\".total .amount\");\n //Collect Input \n \n //Dynamically Corrrect Users \n"
+                },
+                {
+                    "date": 1686346056653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,10 @@\n const tipAmount = document.querySelector(\".tip .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n const totalAmount = document.querySelector(\".total .amount\");\n+\n+\n //Collect Input \n \n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346110413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n+\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n const totalAmount = document.querySelector(\".total .amount\");\n \n"
+                },
+                {
+                    "date": 1686346156601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,17 @@\n const customTip = document.querySelector(\"input.custom\"); \n const tip = document.querySelector(\"tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n-\n+const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n-const totalAmount = document.querySelector(\".total .amount\");\n \n-\n //Collect Input \n+bill.addEventListener(\"click\", ()=> {\n+    \n+})\n \n+\n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346169022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n-bill.addEventListener(\"click\", ()=> {\n-    \n+bill.addEventListener(\"click\", (e)=> {\n+    console.log(e)\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346185843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n-    console.log(e)\n+    console.log(bill.textContent)\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346211813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n-    console.log(bill.textContent)\n+   \n })\n+console.log(bill.textContent)\n \n \n-\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346259611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n    \n })\n-console.log(bill.textContent)\n+console.log(bill.textContent);\n \n \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346273357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n-bill.addEventListener(\"click\", (e)=> {\n+// bill.addEventListener(\"click\", (e)=> {\n    \n-})\n+// })\n console.log(bill.textContent);\n \n \n \n"
+                },
+                {
+                    "date": 1686346280790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n-// bill.addEventListener(\"click\", (e)=> {\n+bill.addEventListener(\"click\", (e)=> {\n    \n-// })\n+})\n console.log(bill.textContent);\n \n \n \n"
+                },
+                {
+                    "date": 1686346306806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,12 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n-   \n+    const text = bill.textContent\n })\n-console.log(bill.textContent);\n \n \n \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346313052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,14 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n-    const text = bill.textContent\n+    const text = bill.textContent; \n })\n \n+console.log(text)\n \n \n \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346325816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,9 @@\n bill.addEventListener(\"click\", (e)=> {\n     const text = bill.textContent; \n })\n \n-console.log(text)\n \n \n \n-\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686346352268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n-    const text = bill.textContent; \n+    bill.style.color = \"red\"\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346361751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"click\", (e)=> {\n-    bill.style.color = \"red\"\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346411870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n-bill.addEventListener(\"click\", (e)=> {\n+bill.addEventListener(\"\"focusout\", (e)=> {\n+\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346422631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n-bill.addEventListener(\"\"focusout\", (e)=> {\n-\n+bill.addEventListener(\"focusout\", (e)=> {\n+    console.log(bill.textContent)\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346439426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    console.log(bill.textContent)\n+    console.log(bill.textContent);\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346507472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    console.log(bill.textContent);\n+    console.log(bill.value); \n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346566215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    console.log(bill.value); \n+    const value = bill.value; \n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346616206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,11 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n+    if (value < 0) {\n+        billErrorMessage.classList.toggle(\".toggle-inline\")\n+    }\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686346628583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.toggle(\".toggle-inline\")\n+        billErrorMessage.classList.toggle(\"toggle-inline\");\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686346862402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.toggle(\"toggle-inline\");\n+        billErrorMessage.classList.add(\"toggle-inline\");\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347048541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.add(\"toggle-inline\");\n+        billErrorMessage.styles.display = \"inline\"\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347056988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.styles.display = \"inline\"\n+        billErrorMessage.style.display = \"inline\";\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347128982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,16 @@\n         billErrorMessage.style.display = \"inline\";\n     }\n })\n \n+bill.addEventListener(\"focus\", (e)=> {\n+    const value = bill.value; \n+    if (value < 0) {\n+        billErrorMessage.style.display = \"inline\";\n+    }\n+})\n \n \n \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686347164110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,16 +9,16 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n+    billErrorMessage.style.display = \"none\";\n     const value = bill.value; \n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\";\n     }\n })\n \n-bill.addEventListener(\"focus\", (e)=> {\n-    const value = bill.value; \n+bill.addEventListener(\"focus\", ()=> {\n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\";\n     }\n })\n"
+                },
+                {
+                    "date": 1686347242558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,22 +9,15 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    billErrorMessage.style.display = \"none\";\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.style.display = \"inline\";\n+        billErrorMessage.classList.toggle(\"toggle-inline\");\n     }\n })\n \n-bill.addEventListener(\"focus\", ()=> {\n-    if (value < 0) {\n-        billErrorMessage.style.display = \"inline\";\n-    }\n-})\n \n \n \n-\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686347409394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.toggle(\"toggle-inline\");\n+        billErrorMessage.classList.display = \"inline\"\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347415699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.display = \"inline\"\n+        billErrorMessage.style.display = \"inline\"; \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347426380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    const value = bill.value; \n+    billErrorMessage.style.display = \"inline\"; \n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\"; \n     }\n })\n"
+                },
+                {
+                    "date": 1686347432153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    billErrorMessage.style.display = \"inline\"; \n+    billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\"; \n     }\n })\n"
+                },
+                {
+                    "date": 1686347462133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n-        billErrorMessage.style.display = \"inline\"; \n+        billErrorMessage.styles.display = \"inline\"; \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347470814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n-        billErrorMessage.styles.display = \"inline\"; \n+        billErrorMessage.style.display = \"inline\"; \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347486643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,12 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n+    const value = bill.value\n     billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n-        billErrorMessage.style.display = \"inline\"; \n+        billErrorMessage.styles.display = \"inline\"; \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347495522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    const value = bill.value\n+    const value = bill.value;\n     billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n         billErrorMessage.styles.display = \"inline\"; \n     }\n"
+                },
+                {
+                    "date": 1686347508894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value;\n     billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n-        billErrorMessage.styles.display = \"inline\"; \n+        billErrorMessage.style.display = \"inline\"; \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347521882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,11 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n-    const value = bill.value;\n-    billErrorMessage.style.display = \"none\"; \n+    const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.style.display = \"inline\"; \n+        billErrorMessage.classList.add(\"toggle-inline\");\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347537261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.add(\"toggle-inline\");\n+        billErrorMessage.classList.toggle(\"toggle-inline\");\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347563224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n     if (value < 0) {\n-        billErrorMessage.classList.toggle(\"toggle-inline\");\n+        billErrorMessage.classList.style.display = \"inline\"\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347570155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,10 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", (e)=> {\n     const value = bill.value; \n+\n+    billErrorMessage.classList.style.display = \"none\"; \n     if (value < 0) {\n         billErrorMessage.classList.style.display = \"inline\"\n     }\n })\n"
+                },
+                {
+                    "date": 1686347576710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,10 @@\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n //Collect Input \n-bill.addEventListener(\"focusout\", (e)=> {\n+bill.addEventListener(\"focusout\", ()=> {\n     const value = bill.value; \n-\n     billErrorMessage.classList.style.display = \"none\"; \n     if (value < 0) {\n         billErrorMessage.classList.style.display = \"inline\"\n     }\n"
+                },
+                {
+                    "date": 1686347596355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n bill.addEventListener(\"focusout\", ()=> {\n     const value = bill.value; \n     billErrorMessage.classList.style.display = \"none\"; \n     if (value < 0) {\n-        billErrorMessage.classList.style.display = \"inline\"\n+        billErrorMessag.style.display = \"inline\"\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347607216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     const value = bill.value; \n-    billErrorMessage.classList.style.display = \"none\"; \n+    billErrorMessage.style.display = \"none\"; \n     if (value < 0) {\n-        billErrorMessag.style.display = \"inline\"\n+        billErrorMessage.style.display = \"inline\"\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347626248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,13 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     const value = bill.value; \n-    billErrorMessage.style.display = \"none\"; \n+  \n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\"\n+    } else {\n+        billErrorMessage.style.display = \"none\"; \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686347698037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,17 +10,20 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     const value = bill.value; \n-  \n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n \n+function calculateTip(bill, tipPercentage) {\n+    \n+}\n \n \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686347708954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n \n function calculateTip(bill, tipPercentage) {\n-    \n+    return bill * tipPercentage\n }\n \n \n \n"
+                },
+                {
+                    "date": 1686347738723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n \n function calculateTip(bill, tipPercentage) {\n-    return bill * tipPercentage\n+    return Number(bill) + Number(bill) * Number(tipPercentage)\n }\n \n \n \n"
+                },
+                {
+                    "date": 1686347747393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + Number(bill) * Number(tipPercentage)\n+    return Number(bill) + Number(bill) * Number(tipPercentage  / 100)\n }\n \n \n \n"
+                },
+                {
+                    "date": 1686347761801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + Number(bill) * Number(tipPercentage  / 100)\n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100))\n }\n \n \n \n"
+                },
+                {
+                    "date": 1686347792234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,13 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n+tip.addEventListener(\"click\")\n \n+\n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100))\n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n }\n \n \n \n"
+                },
+                {
+                    "date": 1686347886113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,11 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n-tip.addEventListener(\"click\")\n+tip.addEventListener(\"click\", () => {\n+    const tip = tipAmount.value;\n+})\n \n \n function calculateTip(bill, tipPercentage) {\n     return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n"
+                },
+                {
+                    "date": 1686347893063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     const tip = tipAmount.value;\n+    console.log(tip);\n })\n \n \n function calculateTip(bill, tipPercentage) {\n"
+                },
+                {
+                    "date": 1686347907443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     }\n })\n \n tip.addEventListener(\"click\", () => {\n+    console.log(\"here\")\n     const tip = tipAmount.value;\n     console.log(tip);\n })\n \n"
+                },
+                {
+                    "date": 1686347915074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n })\n \n tip.addEventListener(\"click\", () => {\n-    console.log(\"here\")\n+    console.log(\"here\");\n     const tip = tipAmount.value;\n     console.log(tip);\n })\n \n"
+                },
+                {
+                    "date": 1686347934031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    const tip = tipAmount.value;\n+    const tip = tip.value;\n     console.log(tip);\n })\n \n \n"
+                },
+                {
+                    "date": 1686347956364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelector(\"tip-entry input[type='button']\"); \n+const tip = document.querySelector(\".tip-entry input[type='button']\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n"
+                },
+                {
+                    "date": 1686347973476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,8 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    const tip = tip.value;\n     console.log(tip);\n })\n \n \n"
+                },
+                {
+                    "date": 1686348018779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    console.log(tip);\n+    console.log(tip.value);\n })\n \n \n function calculateTip(bill, tipPercentage) {\n"
+                },
+                {
+                    "date": 1686348025201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    console.log(tip.value);\n+    console.log(tip.value.slice(1, ));\n })\n \n \n function calculateTip(bill, tipPercentage) {\n"
+                },
+                {
+                    "date": 1686348034610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    console.log(tip.value.slice(1, ));\n+    console.log(tip.value.slice(2));\n })\n \n \n function calculateTip(bill, tipPercentage) {\n"
+                },
+                {
+                    "date": 1686348041851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    console.log(tip.value.slice(2));\n+    console.log(tip.value.slice(0,1));\n })\n \n \n function calculateTip(bill, tipPercentage) {\n"
+                },
+                {
+                    "date": 1686348081363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,8 @@\n })\n \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n-    console.log(tip.value.slice(0,1));\n })\n \n \n function calculateTip(bill, tipPercentage) {\n"
+                },
+                {
+                    "date": 1686348128693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelector(\".tip-entry input[type='button']\"); \n+const tip = document.querySelector(\".tip-button\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n"
+                },
+                {
+                    "date": 1686348149632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelector(\".tip-button\"); \n+const tip = document.querySelector(\"tip-button\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n"
+                },
+                {
+                    "date": 1686348180488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelector(\"tip-button\"); \n+const tip = document.querySelectorAll(\".tip-button\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n"
+                },
+                {
+                    "date": 1686348246704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n+for(const button of tip) \n tip.addEventListener(\"click\", () => {\n     console.log(\"here\");\n })\n \n"
+                },
+                {
+                    "date": 1686348256478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,14 +17,16 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n-for(const button of tip) \n-tip.addEventListener(\"click\", () => {\n-    console.log(\"here\");\n-})\n+for(const button of tip) {\n+    tip.addEventListener(\"click\", () => {\n+        console.log(\"here\");\n+    })\n+}\n \n \n+\n function calculateTip(bill, tipPercentage) {\n     return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n }\n \n"
+                },
+                {
+                    "date": 1686348262268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n })\n \n for(const button of tip) {\n-    tip.addEventListener(\"click\", () => {\n+    button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n }\n \n"
+                },
+                {
+                    "date": 1686348383293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,10 @@\n function calculateTip(bill, tipPercentage) {\n     return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n }\n \n+// function updateElement\n \n \n+\n //Dynamically Corrrect Users \n //Dynamically Update Elements \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686348451825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n-\n+const billValue = 0\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     const value = bill.value; \n     if (value < 0) {\n"
+                },
+                {
+                    "date": 1686348461663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,16 +9,18 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n const billValue = 0\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n-    const value = bill.value; \n+    billValue = bill.value; \n     if (value < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n+\n+\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n"
+                },
+                {
+                    "date": 1686348467266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n+console.log(billValue)\n \n-\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n"
+                },
+                {
+                    "date": 1686348475828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n })\n \n-console.log(billValue)\n+console.log(billValue);\n \n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n"
+                },
+                {
+                    "date": 1686348488507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n-const billValue = 0\n+let billValue = 0\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     billValue = bill.value; \n     if (value < 0) {\n"
+                },
+                {
+                    "date": 1686348513463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n let billValue = 0\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     billValue = bill.value; \n-    if (value < 0) {\n+    if (billValue < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n"
+                },
+                {
+                    "date": 1686348529477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n })\n \n console.log(billValue);\n \n+\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n"
+                },
+                {
+                    "date": 1686348563056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,13 +15,14 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n+    console.log(billValue);\n })\n \n-console.log(billValue);\n \n \n+\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n"
+                },
+                {
+                    "date": 1686348603554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,14 +15,16 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n-    console.log(billValue);\n+ \n })\n \n+console.log(billValue);\n \n \n \n+\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n"
+                },
+                {
+                    "date": 1686348622088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,16 +15,12 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n- \n+    console.log(billValue);\n })\n \n-console.log(billValue);\n \n-\n-\n-\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n"
+                },
+                {
+                    "date": 1686348629055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,8 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n-    console.log(billValue);\n })\n \n \n for(const button of tip) {\n"
+                },
+                {
+                    "date": 1686348727792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,19 +15,20 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n-})\n \n-\n for(const button of tip) {\n     button.addEventListener(\"click\", () => {\n         console.log(\"here\");\n     })\n }\n \n+})\n \n \n+\n+\n function calculateTip(bill, tipPercentage) {\n     return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n }\n \n"
+                },
+                {
+                    "date": 1686348756767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,13 +16,13 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n \n-for(const button of tip) {\n-    button.addEventListener(\"click\", () => {\n-        console.log(\"here\");\n-    })\n-}\n+    for(const button of tip) {\n+        button.addEventListener(\"click\", () => {\n+            console.log(\"here\");\n+        })\n+    }\n \n })\n \n \n"
+                },
+                {
+                    "date": 1686348766609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,10 @@\n             console.log(\"here\");\n         })\n     }\n \n+    console.log(billValue)\n+\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686348799266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n let billValue = 0\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n-    billValue = bill.value; \n+    bill = bill.value; \n     if (billValue < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n"
+                },
+                {
+                    "date": 1686348814447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,12 @@\n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n-let billValue = 0\n+\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n-    bill = bill.value; \n+    let billValue = bill.value; \n     if (billValue < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n"
+                },
+                {
+                    "date": 1686348848339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,8 @@\n             console.log(\"here\");\n         })\n     }\n \n-    console.log(billValue)\n-\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686348892687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,12 @@\n         button.addEventListener(\"click\", () => {\n             console.log(\"here\");\n         })\n     }\n+    \n \n+\n+\n })\n \n \n \n"
+                },
+                {
+                    "date": 1686348927997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n-            console.log(\"here\");\n+            let tipValue = button.value\n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686348951429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n-            let tipValue = button.value\n+            let tipValue = button.value.slice(0,1); \n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686348966329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,10 @@\n     }\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n-            let tipValue = button.value.slice(0,1); \n+            let tipPercentage = button.value.slice(0,1); \n+            calculateTip(bill, tipP)\n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686349066503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n-            calculateTip(bill, tipP)\n+            calculateTip(bill, tipPercentage); \n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686349074197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n+    let tipAmoutValue = 0\n     if (billValue < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n"
+                },
+                {
+                    "date": 1686349082147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n-            calculateTip(bill, tipPercentage); \n+            tipAmountValue = calculateTip(bill, tipPercentage); \n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686349113977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n-    let tipAmoutValue = 0\n+    let tipAmountValue = 0\n     if (billValue < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n"
+                },
+                {
+                    "date": 1686349249970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n             tipAmountValue = calculateTip(bill, tipPercentage); \n+            tipAmount.textContent = \"\"\n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686349274003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n             tipAmountValue = calculateTip(bill, tipPercentage); \n-            tipAmount.textContent = \"\"\n+            tipAmount.textContent = tipAmountValue\n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686349285148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n-            tipAmountValue = calculateTip(bill, tipPercentage); \n-            tipAmount.textContent = tipAmountValue\n+            tipAmountValue = calculateTip(bill, tipPercentage, 1); \n+            tipAmount.textContent = tipAmountValue;\n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686349309018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)   ); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349316941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n-            tipAmountValue = calculateTip(bill, tipPercentage, 1); \n+            tipAmountValue = calculateTip(bill, tipPercentage); \n             tipAmount.textContent = tipAmountValue;\n         })\n     }\n     \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)   ); \n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349326448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100) / 5); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349333621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100) / 5); \n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349395534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage  / 100)); \n+    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349440764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n             tipAmountValue = calculateTip(bill, tipPercentage); \n+            console.log(tipAmountValue)\n             tipAmount.textContent = tipAmountValue;\n         })\n     }\n     \n"
+                },
+                {
+                    "date": 1686349472734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0,1); \n-            tipAmountValue = calculateTip(bill, tipPercentage); \n-            console.log(tipAmountValue)\n+            tipAmountValue = calculateTip(billValue, tipPercentage); \n+            console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n     }\n     \n"
+                },
+                {
+                    "date": 1686349617872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) + Number(bill) * Number(tipPercentage)  / 100); \n+    return Math.round( Number(bill) * Number(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349627406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Math.round( Number(bill) * Number(tipPercentage)  / 100); \n+    return Math.round(Number(bill) * Number(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349733209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,11 +33,10 @@\n })\n \n \n \n-\n function calculateTip(bill, tipPercentage) {\n-    return Math.round(Number(bill) * Number(tipPercentage)  / 100); \n+    return Number(bill) * Number(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349743976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) * Number(tipPercentage)  / 100); \n+    return Number(bill) + Number(bill) * Number(tipPercentage)  / 100; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349751387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + Number(bill) * Number(tipPercentage)  / 100; \n+    return Number(bill) + (Number(bill) * Number(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686349781560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     }\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n-            let tipPercentage = button.value.slice(0,1); \n+            let tipPercentage = button.value.slice(0); \n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n"
+                },
+                {
+                    "date": 1686349818186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     }\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n-            let tipPercentage = button.value.slice(0); \n+            let tipPercentage = button.value.slice(0, -2); \n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n"
+                },
+                {
+                    "date": 1686349826658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -2); \n+            console.log(tipPercentage)\n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n"
+                },
+                {
+                    "date": 1686349848935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -2); \n-            console.log(tipPercentage)\n+            console.log(button.value);\n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n"
+                },
+                {
+                    "date": 1686349873903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     }\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n-            let tipPercentage = button.value.slice(0, -2); \n+            let tipPercentage = button.value.slice(0, -1); \n             console.log(button.value);\n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n"
+                },
+                {
+                    "date": 1686349886123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-            console.log(button.value);\n+            console.log(tipPercentage);\n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n"
+                },
+                {
+                    "date": 1686349971695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,8 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-            console.log(tipPercentage);\n             tipAmountValue = calculateTip(billValue, tipPercentage); \n             console.log(tipAmountValue);\n             tipAmount.textContent = tipAmountValue;\n         })\n"
+                },
+                {
+                    "date": 1686350046836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,11 +20,10 @@\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-            tipAmountValue = calculateTip(billValue, tipPercentage); \n-            console.log(tipAmountValue);\n-            tipAmount.textContent = tipAmountValue;\n+\n+            tipAmount.textContent = tipPercentage\n         })\n     }\n     \n \n"
+                },
+                {
+                    "date": 1686350073475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,12 +17,15 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n \n+    numPeople.addEventListener(\"focusout\", ()=> {\n+        \n+    })\n+\n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-\n             tipAmount.textContent = tipPercentage\n         })\n     }\n     \n"
+                },
+                {
+                    "date": 1686350089051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,14 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n \n     numPeople.addEventListener(\"focusout\", ()=> {\n-        \n+        let numPeople = \n+        if (billValue < 0) {\n+            billErrorMessage.style.display = \"inline\"\n+        } else {\n+            billErrorMessage.style.display = \"none\"; \n+        }\n     })\n \n     for(const button of tip) {\n         button.addEventListener(\"click\", () => {\n"
+                },
+                {
+                    "date": 1686350099444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         billErrorMessage.style.display = \"none\"; \n     }\n \n     numPeople.addEventListener(\"focusout\", ()=> {\n-        let numPeople = \n+        let numPeopleValue = numPeople.value\n         if (billValue < 0) {\n             billErrorMessage.style.display = \"inline\"\n         } else {\n             billErrorMessage.style.display = \"none\"; \n"
+                },
+                {
+                    "date": 1686350105683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     }\n \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n-        if (billValue < 0) {\n+        if (numPeopleValue < 0) {\n             billErrorMessage.style.display = \"inline\"\n         } else {\n             billErrorMessage.style.display = \"none\"; \n         }\n"
+                },
+                {
+                    "date": 1686350120634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,21 +19,22 @@\n     }\n \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n-        if (numPeopleValue < 0) {\n+        if (numPeopleValue <= 0) {\n             billErrorMessage.style.display = \"inline\"\n         } else {\n             billErrorMessage.style.display = \"none\"; \n         }\n+        for(const button of tip) {\n+            button.addEventListener(\"click\", () => {\n+                let tipPercentage = button.value.slice(0, -1); \n+                tipAmount.textContent = tipPercentage\n+            })\n+        }\n     })\n \n-    for(const button of tip) {\n-        button.addEventListener(\"click\", () => {\n-            let tipPercentage = button.value.slice(0, -1); \n-            tipAmount.textContent = tipPercentage\n-        })\n-    }\n+  \n     \n \n \n \n"
+                },
+                {
+                    "date": 1686350144196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // Select Elements \n const bill = document.querySelector(\"#Bill\"); \n const customTip = document.querySelector(\"input.custom\"); \n-const tip = document.querySelectorAll(\".tip-button\"); \n+const tips = document.querySelectorAll(\".tip-button\"); \n const numPeople = document.querySelector(\"#people-entry\"); \n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n@@ -24,9 +24,9 @@\n             billErrorMessage.style.display = \"inline\"\n         } else {\n             billErrorMessage.style.display = \"none\"; \n         }\n-        for(const button of tip) {\n+        for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n                 let tipPercentage = button.value.slice(0, -1); \n                 tipAmount.textContent = tipPercentage\n             })\n"
+                },
+                {
+                    "date": 1686350156144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         }\n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n                 let tipPercentage = button.value.slice(0, -1); \n-                tipAmount.textContent = tipPercentage\n+                tipAmount.textContent = tipPercentage / numPeopleValue\n             })\n         }\n     })\n \n"
+                },
+                {
+                    "date": 1686350229175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         }\n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n                 let tipPercentage = button.value.slice(0, -1); \n-                tipAmount.textContent = tipPercentage / numPeopleValue\n+                tipAmount.textContent = tipPercentage / numPeopleValue; \n             })\n         }\n     })\n \n@@ -42,9 +42,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + (Number(bill) * Number(tipPercentage)  / 100); \n+    return float(bill) + (float(bill) * float(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686350285167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,21 +17,22 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n \n+    for(const button of tips) {\n+        button.addEventListener(\"click\", () => {\n+            let tipPercentage = button.value.slice(0, -1); \n+            tipAmount.textContent = tipPercentage / numPeopleValue; \n+        })\n+    }\n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             billErrorMessage.style.display = \"inline\"\n         } else {\n             billErrorMessage.style.display = \"none\"; \n         }\n-        for(const button of tips) {\n-            button.addEventListener(\"click\", () => {\n-                let tipPercentage = button.value.slice(0, -1); \n-                tipAmount.textContent = tipPercentage / numPeopleValue; \n-            })\n-        }\n+       \n     })\n \n   \n     \n"
+                },
+                {
+                    "date": 1686350305367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,17 +23,18 @@\n             let tipPercentage = button.value.slice(0, -1); \n             tipAmount.textContent = tipPercentage / numPeopleValue; \n         })\n     }\n-    numPeople.addEventListener(\"focusout\", ()=> {\n-        let numPeopleValue = numPeople.value\n-        if (numPeopleValue <= 0) {\n-            billErrorMessage.style.display = \"inline\"\n-        } else {\n-            billErrorMessage.style.display = \"none\"; \n-        }\n+\n+    // numPeople.addEventListener(\"focusout\", ()=> {\n+    //     let numPeopleValue = numPeople.value\n+    //     if (numPeopleValue <= 0) {\n+    //         billErrorMessage.style.display = \"inline\"\n+    //     } else {\n+    //         billErrorMessage.style.display = \"none\"; \n+    //     }\n        \n-    })\n+    // })\n \n   \n     \n \n"
+                },
+                {
+                    "date": 1686350485704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,20 +21,21 @@\n     for(const button of tips) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n             tipAmount.textContent = tipPercentage / numPeopleValue; \n+                numPeople.addEventListener(\"focusout\", ()=> {\n+        let numPeopleValue = numPeople.value\n+        if (numPeopleValue <= 0) {\n+            billErrorMessage.style.display = \"inline\"\n+        } else {\n+            billErrorMessage.style.display = \"none\"; \n+        }\n+       \n+    })\n+\n         })\n     }\n \n-    // numPeople.addEventListener(\"focusout\", ()=> {\n-    //     let numPeopleValue = numPeople.value\n-    //     if (numPeopleValue <= 0) {\n-    //         billErrorMessage.style.display = \"inline\"\n-    //     } else {\n-    //         billErrorMessage.style.display = \"none\"; \n-    //     }\n-       \n-    // })\n \n   \n     \n \n"
+                },
+                {
+                    "date": 1686350512202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,18 +21,16 @@\n     for(const button of tips) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n             tipAmount.textContent = tipPercentage / numPeopleValue; \n-                numPeople.addEventListener(\"focusout\", ()=> {\n-        let numPeopleValue = numPeople.value\n-        if (numPeopleValue <= 0) {\n-            billErrorMessage.style.display = \"inline\"\n-        } else {\n-            billErrorMessage.style.display = \"none\"; \n-        }\n-       \n-    })\n-\n+            numPeople.addEventListener(\"focusout\", ()=> {\n+                let numPeopleValue = numPeople.value\n+                if (numPeopleValue <= 0) {\n+                    billErrorMessage.style.display = \"inline\"\n+                } else {\n+                    billErrorMessage.style.display = \"none\"; \n+                }\n+            })\n         })\n     }\n \n \n"
+                },
+                {
+                    "date": 1686350537113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             tipAmount.textContent = tipPercentage / numPeopleValue; \n             numPeople.addEventListener(\"focusout\", ()=> {\n                 let numPeopleValue = numPeople.value\n                 if (numPeopleValue <= 0) {\n-                    billErrorMessage.style.display = \"inline\"\n+                    peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     billErrorMessage.style.display = \"none\"; \n                 }\n             })\n"
+                },
+                {
+                    "date": 1686350544439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n                 let numPeopleValue = numPeople.value\n                 if (numPeopleValue <= 0) {\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n-                    billErrorMessage.style.display = \"none\"; \n+                    peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n             })\n         })\n     }\n"
+                },
+                {
+                    "date": 1686350599388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,17 +20,17 @@\n \n     for(const button of tips) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-            tipAmount.textContent = tipPercentage / numPeopleValue; \n             numPeople.addEventListener(\"focusout\", ()=> {\n                 let numPeopleValue = numPeople.value\n                 if (numPeopleValue <= 0) {\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n             })\n+            tipAmount.textContent = tipPercentage / numPeopleValue; \n         })\n     }\n \n \n"
+                },
+                {
+                    "date": 1686350617798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,12 @@\n                 if (numPeopleValue <= 0) {\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n+                    tipAmount.textContent = tipPercentage / numPeopleValue; \n                 }\n             })\n-            tipAmount.textContent = tipPercentage / numPeopleValue; \n+          \n         })\n     }\n \n \n"
+                },
+                {
+                    "date": 1686350625169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,11 @@\n                 if (numPeopleValue <= 0) {\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n-                    tipAmount.textContent = tipPercentage / numPeopleValue; \n+                    \n                 }\n+                tipAmount.textContent = tipPercentage / numPeopleValue; \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686351059471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,11 @@\n                 if (numPeopleValue <= 0) {\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n-                    \n                 }\n                 tipAmount.textContent = tipPercentage / numPeopleValue; \n+                totalAmount.textContent = tipPercentage + billValue\n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686351087304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmount.textContent = tipPercentage / numPeopleValue; \n-                totalAmount.textContent = tipPercentage + billValue\n+                totalAmount.textContent = tipPercentage / numPeopleValue + billValue; \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686351121566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmount.textContent = tipPercentage / numPeopleValue; \n-                totalAmount.textContent = tipPercentage / numPeopleValue + billValue; \n+                totalAmount.textContent = tipPercentage / numPeopleValue + billValue / numPeopleValue; \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686351128318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmount.textContent = tipPercentage / numPeopleValue; \n-                totalAmount.textContent = tipPercentage / numPeopleValue + billValue / numPeopleValue; \n+                totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686351202934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = tipPercentage / numPeopleValue; \n+                tipAmount.textContent = Float(tipPercentage / numPeopleValue); \n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686351221292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = Float(tipPercentage / numPeopleValue); \n+                tipAmount.textContent = Decimal(tipPercentage / numPeopleValue); \n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686351304323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = Decimal(tipPercentage / numPeopleValue); \n+                tipAmount.textContent = Number(tipPercentage / numPeopleValue); \n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686351333840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = Number(tipPercentage / numPeopleValue); \n+                tipAmount.textContent = parseFloat(tipPercentage / numPeopleValue); \n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686351357953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmount.textContent = parseFloat(tipPercentage / numPeopleValue); \n+                console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686351423333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = parseFloat(tipPercentage / numPeopleValue); \n+                tipAmount.textContent = parseFloat((tipPercentage / 100)numPeopleValue); \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n"
+                },
+                {
+                    "date": 1686351552808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = parseFloat((tipPercentage / 100)numPeopleValue); \n+                tipAmount.textContent = calculateTip() \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return float(bill) + (float(bill) * float(tipPercentage)  / 100); \n+    return Number(bill) + (float(bill) * float(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351560769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + (float(bill) * float(tipPercentage)  / 100); \n+    return Number(bill) + (Number(bill) * Number(tipPercentage)  / 100); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351589481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + (Number(bill) * Number(tipPercentage)  / 100); \n+    return Number(bill) + (Number(bill) * (Number(tipPercentage)  / 100)); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351614070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return Number(bill) + (Number(bill) * (Number(tipPercentage)  / 100)); \n+    return  (Number(bill) * (Number(tipPercentage)  / 100)) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351639804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = calculateTip() \n+                tipAmount.textContent = calculateTip(billValue, numPeopleValue) \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return  (Number(bill) * (Number(tipPercentage)  / 100)) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100)) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351653187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = calculateTip(billValue, numPeopleValue) \n+                tipAmount.textContent = calculateTip(billValue, tipPercentage) \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n@@ -45,9 +45,9 @@\n })\n \n \n \n-function calculateTip(bill, tipPercentage) {\n+function calculateTip(bill, tipPercentage, numPeople) {\n     return (Number(bill) * (Number(tipPercentage)  / 100)) ; \n }\n \n // function updateElement\n"
+                },
+                {
+                    "date": 1686351674678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n })\n \n \n \n-function calculateTip(bill, tipPercentage, numPeople) {\n+function calculateTip(bill, tipPercentage) {\n     return (Number(bill) * (Number(tipPercentage)  / 100)) ; \n }\n \n // function updateElement\n"
+                },
+                {
+                    "date": 1686351710143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100)) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351718507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = calculateTip(billValue, tipPercentage) \n+                tipAmount.textContent = calculateTip(billValue, tipPercentage, numPeople) \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n@@ -45,9 +45,9 @@\n })\n \n \n \n-function calculateTip(bill, tipPercentage) {\n+function calculateTip(bill, tipPercentage, numPeople) {\n     return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople) ; \n }\n \n // function updateElement\n"
+                },
+                {
+                    "date": 1686351832840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmount.textContent = calculateTip(billValue, tipPercentage, numPeople) \n+                tipAmount.textContent = calculateTip(billValue, tipPercentage, numPeopleValue) \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n             })\n           \n@@ -46,9 +46,9 @@\n \n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toFixed(2) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686351880879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n-    let tipAmountValue = 0\n     if (billValue < 0) {\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n@@ -27,11 +26,12 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n+                tipAmountValue\n                 tipAmount.textContent = calculateTip(billValue, tipPercentage, numPeopleValue) \n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n-                totalAmount.textContent = (tipPercentage / numPeopleValue) + (billValue / numPeopleValue); \n+                totalAmount.textContent = \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686351889943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmountValue\n-                tipAmount.textContent = calculateTip(billValue, tipPercentage, numPeopleValue) \n+                tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue) \n+                tipAmount.textContent = tipAmountValue\n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = \n             })\n           \n"
+                },
+                {
+                    "date": 1686351897519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n-                tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue) \n-                tipAmount.textContent = tipAmountValue\n+                tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n+                tipAmount.textContent = tipAmountValue;\n                 console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = \n             })\n           \n"
+                },
+                {
+                    "date": 1686351913451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,8 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                console.log(parseFloat(tipPercentage / numPeopleValue));\n                 totalAmount.textContent = \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686351993177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = \n+                totalAmount.textContent = tipAmountValue + (billValue / numPeopleValue)\n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352013112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = tipAmountValue + (billValue / numPeopleValue)\n+                totalAmount.textContent = (tipAmountValue + (billValue / numPeopleValue)).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352117307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = (tipAmountValue + (billValue / numPeopleValue)).toFixed(2); \n+                totalAmount.textContent = Number(tipAmountValue + (billValue / numPeopleValue)).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352155607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(tipAmountValue + (billValue / numPeopleValue)).toFixed(2); \n+                totalAmount.textContent = Number(tipAmountValue + Number(billValue / numPeopleValue)).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352168250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(tipAmountValue + Number(billValue / numPeopleValue)).toFixed(2); \n+                totalAmount.textContent = (tipAmountValue + (billValue / numPeopleValue); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352200683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = (tipAmountValue + (billValue / numPeopleValue); \n+                totalAmount.textContent = (tipAmountValue + billValue); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352216091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = (tipAmountValue + billValue); \n+                totalAmount.textContent = (tipAmountValue + (billValue / numPeopleValue)); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352259222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = (tipAmountValue + (billValue / numPeopleValue)); \n+                totalAmount.textContent = ( (billValue / numPeopleValue)); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352298666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = ( (billValue / numPeopleValue)); \n+                totalAmount.textContent = (billValue / numPeopleValue) + ; \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352317665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = (billValue / numPeopleValue) + ; \n+                totalAmount.textContent = ((billValue / numPeopleValue) + tipAmountValue); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352333749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = ((billValue / numPeopleValue) + tipAmountValue); \n+                totalAmount.textContent = Number((billValue / numPeopleValue) + tipAmountValue).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686352351634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number((billValue / numPeopleValue) + tipAmountValue).toFixed(2); \n+                totalAmount.textContent = Number( Number(billValue / numPeopleValue) + tipAmountValue).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686354848345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number( Number(billValue / numPeopleValue) + tipAmountValue).toFixed(2); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + tipAmountValue).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686354881665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + tipAmountValue).toFixed(2); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixed(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686355130474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixed(2); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toPrecision(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686355181503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toPrecision(2); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toPrecision(4); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686355193862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toPrecision(4); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toPrecision(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686355200296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toPrecision(2); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixed(2); \n             })\n           \n         })\n     }\n@@ -45,9 +45,9 @@\n \n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toFixed(2) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toPrecision(2) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686355222308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toPrecision(2) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toPrecision(3) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686355245092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toPrecision(3) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toFixed(2) ; \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686355440054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople).toFixed(2) ; \n+    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686355548757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,10 @@\n \n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    return (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n+    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n+    num.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686355558800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,10 @@\n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n-    num.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n+    result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n+    return result\n }\n \n // function updateElement\n \n"
+                },
+                {
+                    "date": 1686355718058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,10 +42,10 @@\n \n \n })\n \n+Number.prototype.toFixedNoRound = \n \n-\n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n     return result\n"
+                },
+                {
+                    "date": 1686355723792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n \n \n })\n \n-Number.prototype.toFixedNoRound = \n+Number.prototype.toFixedNoRound = function(precision = 2)\n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n"
+                },
+                {
+                    "date": 1686355733222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,11 @@\n \n \n })\n \n-Number.prototype.toFixedNoRound = function(precision = 2)\n+Number.prototype.toFixedNoRound = function(precision = 2) {\n+    const factor = \n+}\n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n"
+                },
+                {
+                    "date": 1686355745897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n \n })\n \n Number.prototype.toFixedNoRound = function(precision = 2) {\n-    const factor = \n+    const factor = Math.pow(10, precision)\n }\n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n"
+                },
+                {
+                    "date": 1686355759264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,10 @@\n \n })\n \n Number.prototype.toFixedNoRound = function(precision = 2) {\n-    const factor = Math.pow(10, precision)\n+    const factor = Math.pow(10, precision); \n+    return Math.floor(thiis * factor)\n }\n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n"
+                },
+                {
+                    "date": 1686355773760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,13 @@\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n+Number.prototype.toFixedNoRound = function(precision = 2) {\n+    const factor = Math.pow(10, precision); \n+    return Math.floor(thiis * factor)  / factor\n+}\n+\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n     if (billValue < 0) {\n@@ -42,12 +47,8 @@\n \n \n })\n \n-Number.prototype.toFixedNoRound = function(precision = 2) {\n-    const factor = Math.pow(10, precision); \n-    return Math.floor(thiis * factor)\n-}\n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n"
+                },
+                {
+                    "date": 1686355781265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixed(2); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2); \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686355796905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n \n Number.prototype.toFixedNoRound = function(precision = 2) {\n     const factor = Math.pow(10, precision); \n-    return Math.floor(thiis * factor)  / factor\n+    return Math.floor(this * factor)  / factor\n }\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686355834336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n })\n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n+    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople)toFixedNoRound(2);; \n     result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n     return result\n }\n \n"
+                },
+                {
+                    "date": 1686355873196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n })\n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n-    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople)toFixedNoRound(2);; \n+    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n     return result\n }\n \n"
+                },
+                {
+                    "date": 1686355927722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                tipAmount.textContent = tipAmountValue;\n+                tipAmount.textContent = tipAmountValue.toFixedNoRound(2);\n                 totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2); \n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686355956382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                tipAmount.textContent = tipAmountValue.toFixedNoRound(2);\n+                tipAmount.textContent = tipAmountValue.toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});;\n                 totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2); \n             })\n           \n         })\n@@ -50,9 +50,9 @@\n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n-    result.toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n+    result\n     return result\n }\n \n // function updateElement\n"
+                },
+                {
+                    "date": 1686355983339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,10 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                tipAmount.textContent = tipAmountValue.toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});;\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2); \n+                tipAmount.textContent = tipAmountValue.toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"}); \n             })\n           \n         })\n     }\n@@ -50,9 +50,8 @@\n \n \n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n-    result\n     return result\n }\n \n // function updateElement\n"
+                },
+                {
+                    "date": 1686355998701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue.toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"}); \n+                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});; \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686356032550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                 tipAmount.textContent = tipAmountValue.toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n-                totalAmount.textContent = Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});; \n+                totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686356040643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                tipAmount.textContent = tipAmountValue.toFixedNoRound(2).toLocaleString(\"en-US\", {style:\"currency\", currency:\"USD\"});\n+                tipAmount.textContent = tipAmountValue.toFixedNoRound(2)\n                 totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686356049059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n                 tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                tipAmount.textContent = tipAmountValue.toFixedNoRound(2)\n+                tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n                 totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n             })\n           \n         })\n"
+                },
+                {
+                    "date": 1686356100362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n     if (billValue < 0) {\n+        billValue = 0\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n     }\n"
+                },
+                {
+                    "date": 1686356106774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,12 @@\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n     if (billValue < 0) {\n-        billValue = 0\n+        billValue = 0;\n         billErrorMessage.style.display = \"inline\"\n     } else {\n+        billValue = 0\n         billErrorMessage.style.display = \"none\"; \n     }\n \n     for(const button of tips) {\n"
+                },
+                {
+                    "date": 1686356114238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n             let tipPercentage = button.value.slice(0, -1); \n             numPeople.addEventListener(\"focusout\", ()=> {\n                 let numPeopleValue = numPeople.value\n                 if (numPeopleValue <= 0) {\n+                    numPeopleValue = 1\n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n"
+                },
+                {
+                    "date": 1686356119640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n             let tipPercentage = button.value.slice(0, -1); \n             numPeople.addEventListener(\"focusout\", ()=> {\n                 let numPeopleValue = numPeople.value\n                 if (numPeopleValue <= 0) {\n-                    numPeopleValue = 1\n+                    numPeopleValue = 1; \n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                 }\n"
+                },
+                {
+                    "date": 1686356180841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,12 +33,13 @@\n                     numPeopleValue = 1; \n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n+                    tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n+                    tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n+                    totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n                 }\n-                tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n-                totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n+              \n             })\n           \n         })\n     }\n"
+                },
+                {
+                    "date": 1686356186462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,8 @@\n             let tipPercentage = button.value.slice(0, -1); \n             numPeople.addEventListener(\"focusout\", ()=> {\n                 let numPeopleValue = numPeople.value\n                 if (numPeopleValue <= 0) {\n-                    numPeopleValue = 1; \n                     peopleEntryErrorMessage.style.display = \"inline\"\n                 } else {\n                     peopleEntryErrorMessage.style.display = \"none\"; \n                     tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n"
+                },
+                {
+                    "date": 1686356206705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,12 +19,10 @@\n     if (billValue < 0) {\n         billValue = 0;\n         billErrorMessage.style.display = \"inline\"\n     } else {\n-        billValue = 0\n         billErrorMessage.style.display = \"none\"; \n     }\n-\n     for(const button of tips) {\n         button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n             numPeople.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686356235516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,27 +20,28 @@\n         billValue = 0;\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n-    }\n-    for(const button of tips) {\n-        button.addEventListener(\"click\", () => {\n-            let tipPercentage = button.value.slice(0, -1); \n-            numPeople.addEventListener(\"focusout\", ()=> {\n-                let numPeopleValue = numPeople.value\n-                if (numPeopleValue <= 0) {\n-                    peopleEntryErrorMessage.style.display = \"inline\"\n-                } else {\n-                    peopleEntryErrorMessage.style.display = \"none\"; \n-                    tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                    tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n-                    totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n-                }\n+        for(const button of tips) {\n+            button.addEventListener(\"click\", () => {\n+                let tipPercentage = button.value.slice(0, -1); \n+                numPeople.addEventListener(\"focusout\", ()=> {\n+                    let numPeopleValue = numPeople.value\n+                    if (numPeopleValue <= 0) {\n+                        peopleEntryErrorMessage.style.display = \"inline\"\n+                    } else {\n+                        peopleEntryErrorMessage.style.display = \"none\"; \n+                        tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n+                        tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n+                        totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n+                    }\n+                  \n+                })\n               \n             })\n-          \n-        })\n+        }\n     }\n+   \n \n \n   \n     \n"
+                },
+                {
+                    "date": 1686356249128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,19 +39,11 @@\n               \n             })\n         }\n     }\n-   \n+   })\n \n \n-  \n-    \n-\n-\n-\n-})\n-\n-\n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n"
+                },
+                {
+                    "date": 1686356394012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,8 @@\n                         tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n                         tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n                         totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n                     }\n-                  \n                 })\n               \n             })\n         }\n"
+                },
+                {
+                    "date": 1686356742677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,13 +41,20 @@\n     }\n    })\n \n \n+\n+\n+\n+\n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n+function updateElement() {\n+    \n+}\n // function updateElement\n \n \n \n"
+                },
+                {
+                    "date": 1686356755935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,20 @@\n     return result\n }\n \n function updateElement() {\n-    \n+    let tipPercentage = button.value.slice(0, -1); \n+    numPeople.addEventListener(\"focusout\", ()=> {\n+        let numPeopleValue = numPeople.value\n+        if (numPeopleValue <= 0) {\n+            peopleEntryErrorMessage.style.display = \"inline\"\n+        } else {\n+            peopleEntryErrorMessage.style.display = \"none\"; \n+            tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n+            tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n+            totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n+        }\n+    })\n }\n // function updateElement\n \n \n"
+                },
+                {
+                    "date": 1686356775155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,24 +21,9 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", () => {\n-                let tipPercentage = button.value.slice(0, -1); \n-                numPeople.addEventListener(\"focusout\", ()=> {\n-                    let numPeopleValue = numPeople.value\n-                    if (numPeopleValue <= 0) {\n-                        peopleEntryErrorMessage.style.display = \"inline\"\n-                    } else {\n-                        peopleEntryErrorMessage.style.display = \"none\"; \n-                        tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-                        tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n-                        totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n-                    }\n-                })\n-              \n-            })\n-        }\n+            button.addEventListener(\"click\", updateElement); \n     }\n    })\n \n \n"
+                },
+                {
+                    "date": 1686356815020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,11 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", updateElement); \n+        }\n     }\n-   })\n+})\n \n \n \n \n"
+                },
+                {
+                    "date": 1686356879943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     return result\n }\n \n function updateElement() {\n-    let tipPercentage = button.value.slice(0, -1); \n+    let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686356935392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement() {\n+function updateElement(billValue, tipPercentage, numPeopleValue) {\n     let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n"
+                },
+                {
+                    "date": 1686356964116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,10 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", updateElement); \n+            button.addEventListener(\"click\", () => {\n+            }); \n         }\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686356996331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,10 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", () => {\n+            button.addEventListener(\"click\", (billValue, tiP) => {\n+                updateElement(bl)\n             }); \n         }\n     }\n })\n@@ -37,9 +38,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(billValue, tipPercentage, numPeopleValue) {\n+function updateElement(billValue, tipPercentage) {\n     let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n"
+                },
+                {
+                    "date": 1686357006008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,10 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", (billValue, tiP) => {\n-                updateElement(bl)\n+            button.addEventListener(\"click\", (billValue, tipPercentage) => {\n+                updateElement(billValue)\n             }); \n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357011967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", (billValue, tipPercentage) => {\n+            button.addEventListener(\"click\", (billValue) => {\n                 updateElement(billValue)\n             }); \n         }\n     }\n@@ -38,9 +38,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(billValue, tipPercentage) {\n+function updateElement(billValue) {\n     let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n"
+                },
+                {
+                    "date": 1686357017297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", (billValue) => {\n-                updateElement(billValue)\n+                updateElement(billValue);\n             }); \n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357062794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(billValue) {\n+function updateElement(buttonbillValue) {\n     let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n"
+                },
+                {
+                    "date": 1686357070832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,10 +38,10 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(buttonbillValue) {\n-    let tipPercentage = this.value.slice(0, -1); \n+function updateElement(button, billValue) {\n+    let tipPercentage = button.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686357079594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", (billValue) => {\n+            button.addEventListener(\"click\", (button, illValue) => {\n                 updateElement(billValue);\n             }); \n         }\n     }\n"
+                },
+                {
+                    "date": 1686357085210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", (button, illValue) => {\n-                updateElement(billValue);\n+                updateElement(button, billValue);\n             }); \n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357106516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", (button, illValue) => {\n+            button.addEventListener(\"click\", (button, billValue) => {\n                 updateElement(button, billValue);\n             }); \n         }\n     }\n"
+                },
+                {
+                    "date": 1686357128524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", (button, billValue) => {\n-                updateElement(button, billValue);\n+                button.updateElement(button, billValue);\n             }); \n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357136410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,10 +38,10 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(button, billValue) {\n-    let tipPercentage = button.value.slice(0, -1); \n+function updateElement(billValue) {\n+    let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686357141912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", (button, billValue) => {\n-                button.updateElement(button, billValue);\n+                button.updateElement(billValue);\n             }); \n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357169601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         billErrorMessage.style.display = \"inline\"\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n-            button.addEventListener(\"click\", (button, billValue) => {\n+            button.addEventListener(\"click\", () => {\n                 button.updateElement(billValue);\n             }); \n         }\n     }\n"
+                },
+                {
+                    "date": 1686357182587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n-                button.updateElement(billValue);\n+               updateElement(billValue);\n             }); \n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357188245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(billValue) {\n+function updateElement(button, billValue) {\n     let tipPercentage = this.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n"
+                },
+                {
+                    "date": 1686357195164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n-               updateElement(billValue);\n+               updateElement(button, billValue);\n             }); \n         }\n     }\n })\n@@ -39,9 +39,9 @@\n     return result\n }\n \n function updateElement(button, billValue) {\n-    let tipPercentage = this.value.slice(0, -1); \n+    let tipPercentage = button.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686357243526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n                updateElement(button, billValue);\n             }); \n+            \n         }\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686357253453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,12 @@\n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n                updateElement(button, billValue);\n             }); \n-            \n+\n+            customTip.addEventListener(\"click\", ()=> {\n+                \n+            })\n         }\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686357266876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n                updateElement(button, billValue);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n-                \n+                updateElement(button, billValue)\n             })\n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357410537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(button, billValue) {\n+function updateElement(button, billValue,tipPercentage) {\n     let tipPercentage = button.value.slice(0, -1); \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n"
+                },
+                {
+                    "date": 1686357416661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n     } else {\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n+            let tipPercentage = button.value.slice(0, -1); \n                updateElement(button, billValue);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n@@ -43,9 +44,9 @@\n     return result\n }\n \n function updateElement(button, billValue,tipPercentage) {\n-    let tipPercentage = button.value.slice(0, -1); \n+   \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686357436039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n                updateElement(button, billValue);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n+                let tipPercentage = button.value \n                 updateElement(button, billValue)\n             })\n         }\n     }\n"
+                },
+                {
+                    "date": 1686357445664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-               updateElement(button, billValue);\n+               updateElement(button, tipPercentage);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value \n"
+                },
+                {
+                    "date": 1686357484159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-               updateElement(button, tipPercentage);\n+               updateElement(button, billValue, tipPercentage);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value \n"
+                },
+                {
+                    "date": 1686357491719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value \n-                updateElement(button, billValue)\n+                updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686357744991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                updateElement(button, billValue, tipPercentage);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n-                let tipPercentage = button.value \n+                let tipPercentage =words.filter(word => word.length > 6);\n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n@@ -45,9 +45,8 @@\n     return result\n }\n \n function updateElement(button, billValue,tipPercentage) {\n-   \n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686357757010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                updateElement(button, billValue, tipPercentage);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n-                let tipPercentage =words.filter(word => word.length > 6);\n+                let tipPercentage = button.value; \n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n"
+                },
+                {
+                    "date": 1686357816102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,10 @@\n                updateElement(button, billValue, tipPercentage);\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n-                let tipPercentage = button.value; \n+                let tipPercentage = button.value;\n+                tipPercentage = tipPercentage.filter(char => char != '%') \n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n"
+                },
+                {
+                    "date": 1686358360951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value;\n-                tipPercentage = tipPercentage.filter(char => char != '%') \n+                tipPercentage = tipPercentage.substring(0, ) \n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n"
+                },
+                {
+                    "date": 1686358378184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value;\n-                tipPercentage = tipPercentage.substring(0, ) \n+                tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n"
+                },
+                {
+                    "date": 1686358614772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value;\n+                if tipPercentage.includes(\"%\")\n                 tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n"
+                },
+                {
+                    "date": 1686358656095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,12 @@\n             }); \n \n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value;\n-                if tipPercentage.includes(\"%\")\n-                tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n-                updateElement(button, billValue, tipPercentage)\n+                if (tipPercentage.includes(\"%\")) {\n+                    tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n+                    updateElement(button, billValue, tipPercentage)\n+                }\n             })\n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686358807918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value;\n                 if (tipPercentage.includes(\"%\")) {\n                     tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n-                    updateElement(button, billValue, tipPercentage)\n-                }\n+                } \n+                updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n })\n"
+                },
+                {
+                    "date": 1686358944251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,10 @@\n             customTip.addEventListener(\"click\", ()=> {\n                 let tipPercentage = button.value;\n                 if (tipPercentage.includes(\"%\")) {\n                     tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n-                } \n+                }\n+                console.log(tipPercentage)\n                 updateElement(button, billValue, tipPercentage)\n             })\n         }\n     }\n"
+                },
+                {
+                    "date": 1686359015253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,17 +25,8 @@\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n                updateElement(button, billValue, tipPercentage);\n             }); \n-\n-            customTip.addEventListener(\"click\", ()=> {\n-                let tipPercentage = button.value;\n-                if (tipPercentage.includes(\"%\")) {\n-                    tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n-                }\n-                console.log(tipPercentage)\n-                updateElement(button, billValue, tipPercentage)\n-            })\n         }\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686359073561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,17 @@\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n                updateElement(button, billValue, tipPercentage);\n             }); \n+\n+            customTip.addEventListener(\"click\", ()=> {\n+                let tipPercentage = customTip.value;\n+                if (tipPercentage.includes(\"%\")) {\n+                    tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n+                }\n+                console.log(tipPercentage);\n+                updateElement(button, billValue, tipPercentage)\n+            })\n         }\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686359098608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,17 +25,8 @@\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n                updateElement(button, billValue, tipPercentage);\n             }); \n-\n-            customTip.addEventListener(\"click\", ()=> {\n-                let tipPercentage = customTip.value;\n-                if (tipPercentage.includes(\"%\")) {\n-                    tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n-                }\n-                console.log(tipPercentage);\n-                updateElement(button, billValue, tipPercentage)\n-            })\n         }\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686359127392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,16 @@\n             let tipPercentage = button.value.slice(0, -1); \n                updateElement(button, billValue, tipPercentage);\n             }); \n         }\n+        customTip.addEventListener(\"click\", ()=> {\n+            let tipPercentage = customTip.value;\n+            if (tipPercentage.includes(\"%\")) {\n+                tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n+            }\n+            console.log(tipPercentage);\n+            updateElement(customTip, billValue, tipPercentage)\n+        })\n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686359217787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement(button, billValue,tipPercentage) {\n+function updateElement( billValue,tipPercentage) {\n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686359223507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         billErrorMessage.style.display = \"none\"; \n         for(const button of tips) {\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n-               updateElement(button, billValue, tipPercentage);\n+               updateElement(billValue, tipPercentage);\n             }); \n         }\n         customTip.addEventListener(\"click\", ()=> {\n             let tipPercentage = customTip.value;\n@@ -47,9 +47,9 @@\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n \n-function updateElement( billValue,tipPercentage) {\n+function updateElement(billValue,tipPercentage) {\n     numPeople.addEventListener(\"focusout\", ()=> {\n         let numPeopleValue = numPeople.value\n         if (numPeopleValue <= 0) {\n             peopleEntryErrorMessage.style.display = \"inline\"\n"
+                },
+                {
+                    "date": 1686359250707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n             if (tipPercentage.includes(\"%\")) {\n                 tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n             }\n             console.log(tipPercentage);\n-            updateElement(customTip, billValue, tipPercentage)\n+            updateElement( billValue, tipPercentage)\n         })\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686359283549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n             if (tipPercentage.includes(\"%\")) {\n                 tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n             }\n             console.log(tipPercentage);\n-            updateElement( billValue, tipPercentage)\n+            // updateElement(billValue, tipPercentage)\n         })\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686359337237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n             let tipPercentage = button.value.slice(0, -1); \n                updateElement(billValue, tipPercentage);\n             }); \n         }\n-        customTip.addEventListener(\"click\", ()=> {\n+        customTip.addEventListener(\"focusout\", ()=> {\n             let tipPercentage = customTip.value;\n             if (tipPercentage.includes(\"%\")) {\n                 tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n             }\n"
+                },
+                {
+                    "date": 1686359376711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n             if (tipPercentage.includes(\"%\")) {\n                 tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n             }\n             console.log(tipPercentage);\n-            // updateElement(billValue, tipPercentage)\n+            updateElement(billValue, tipPercentage)\n         })\n     }\n })\n \n"
+                },
+                {
+                    "date": 1686359511066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,17 +25,18 @@\n             button.addEventListener(\"click\", () => {\n             let tipPercentage = button.value.slice(0, -1); \n                updateElement(billValue, tipPercentage);\n             }); \n+            customTip.addEventListener(\"focusout\", ()=> {\n+                let tipPercentage = customTip.value;\n+                if (tipPercentage.includes(\"%\")) {\n+                    tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n+                }\n+                console.log(tipPercentage);\n+                updateElement(billValue, tipPercentage)\n+            })\n         }\n-        customTip.addEventListener(\"focusout\", ()=> {\n-            let tipPercentage = customTip.value;\n-            if (tipPercentage.includes(\"%\")) {\n-                tipPercentage = tipPercentage.substring(0, tipPercentage.indexOf(\"%\")) \n-            }\n-            console.log(tipPercentage);\n-            updateElement(billValue, tipPercentage)\n-        })\n+   \n     }\n })\n \n \n"
+                },
+                {
+                    "date": 1686359636361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,13 +38,8 @@\n    \n     }\n })\n \n-\n-\n-\n-\n-\n function calculateTip(bill, tipPercentage, numPeople) {\n     let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n     return result\n }\n"
+                },
+                {
+                    "date": 1686359642277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,28 @@\n     const factor = Math.pow(10, precision); \n     return Math.floor(this * factor)  / factor\n }\n \n+\n+function calculateTip(bill, tipPercentage, numPeople) {\n+    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n+    return result\n+}\n+\n+function updateElement(billValue,tipPercentage) {\n+    numPeople.addEventListener(\"focusout\", ()=> {\n+        let numPeopleValue = numPeople.value\n+        if (numPeopleValue <= 0) {\n+            peopleEntryErrorMessage.style.display = \"inline\"\n+        } else {\n+            peopleEntryErrorMessage.style.display = \"none\"; \n+            tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n+            tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n+            totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n+        }\n+    })\n+}\n+\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n     if (billValue < 0) {\n@@ -38,26 +58,8 @@\n    \n     }\n })\n \n-function calculateTip(bill, tipPercentage, numPeople) {\n-    let result = (Number(bill) * (Number(tipPercentage)  / 100) / numPeople); \n-    return result\n-}\n-\n-function updateElement(billValue,tipPercentage) {\n-    numPeople.addEventListener(\"focusout\", ()=> {\n-        let numPeopleValue = numPeople.value\n-        if (numPeopleValue <= 0) {\n-            peopleEntryErrorMessage.style.display = \"inline\"\n-        } else {\n-            peopleEntryErrorMessage.style.display = \"none\"; \n-            tipAmountValue =  calculateTip(billValue, tipPercentage, numPeopleValue);\n-            tipAmount.textContent = \"$\" + tipAmountValue.toFixedNoRound(2);\n-            totalAmount.textContent = \"$\" + Number(Number(billValue / numPeopleValue) + Number(tipAmountValue)).toFixedNoRound(2)\n-        }\n-    })\n-}\n // function updateElement\n \n \n \n"
+                },
+                {
+                    "date": 1686359661314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,12 @@\n         }\n     })\n }\n \n+function reset() {\n+    \n+}\n+\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n     if (billValue < 0) {\n"
+                },
+                {
+                    "date": 1686359677931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     })\n }\n \n function reset() {\n-    \n+    const bill = document.querySelector(\"#Bill\"); \n }\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686359683294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n }\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n+    bill.value = 0 \n }\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686359697948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,12 @@\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n     bill.value = 0 \n+    const numPeople = document.querySelector(\"#people-entry\"); \n+    numPeople.value = 0\n+const tipAmount = document.querySelector(\".tip .amount\");\n+const totalAmount = document.querySelector(\".total .amount\");\n }\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686359704053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,11 @@\n }\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n-    bill.value = 0 \n+    bill.value = 0; \n     const numPeople = document.querySelector(\"#people-entry\"); \n-    numPeople.value = 0\n+    numPeople.value = 0; \n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n }\n \n"
+                },
+                {
+                    "date": 1686359720646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,10 +37,11 @@\n     const bill = document.querySelector(\"#Bill\"); \n     bill.value = 0; \n     const numPeople = document.querySelector(\"#people-entry\"); \n     numPeople.value = 0; \n-const tipAmount = document.querySelector(\".tip .amount\");\n-const totalAmount = document.querySelector(\".total .amount\");\n+    const tipAmount = document.querySelector(\".tip .amount\");\n+    tipAmount.textContent = '0'\n+    const totalAmount = document.querySelector(\".total .amount\");\n }\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686359727948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,10 @@\n     const numPeople = document.querySelector(\"#people-entry\"); \n     numPeople.value = 0; \n     const tipAmount = document.querySelector(\".tip .amount\");\n     tipAmount.textContent = '0'\n-    const totalAmount = document.querySelector(\".total .amount\");\n+    const totalAmount = document.querySelector(\".total .amount\");tipAmount \n+    totalAmount.textContent = '0'\n }\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686359765767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n const tipAmount = document.querySelector(\".tip .amount\");\n const totalAmount = document.querySelector(\".total .amount\");\n const billErrorMessage = document.querySelector(\".bill-entry .error-message\"); \n const peopleEntryErrorMessage = document.querySelector(\".people-entry .error-message\")\n+const resetButton = document.querySelector(\".reset-button\")\n \n Number.prototype.toFixedNoRound = function(precision = 2) {\n     const factor = Math.pow(10, precision); \n     return Math.floor(this * factor)  / factor\n"
+                },
+                {
+                    "date": 1686359806230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,14 @@\n     const totalAmount = document.querySelector(\".total .amount\");tipAmount \n     totalAmount.textContent = '0'\n }\n \n+\n+\n+resetButton.addEventListener(\"click\", ()=> {\n+    reset()\n+})\n+\n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n     let billValue = bill.value; \n     if (billValue < 0) {\n"
+                },
+                {
+                    "date": 1686359822116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n \n \n \n resetButton.addEventListener(\"click\", ()=> {\n-    reset()\n+    reset();\n })\n \n //Collect Input \n bill.addEventListener(\"focusout\", ()=> {\n"
+                },
+                {
+                    "date": 1686359922456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,11 +35,11 @@\n }\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n-    bill.value = 0; \n+    bill.value =  \"$0.00\";\n     const numPeople = document.querySelector(\"#people-entry\"); \n-    numPeople.value = 0; \n+    numPeople.value = \"$0.00\"; \n     const tipAmount = document.querySelector(\".tip .amount\");\n     tipAmount.textContent = '0'\n     const totalAmount = document.querySelector(\".total .amount\");tipAmount \n     totalAmount.textContent = '0'\n"
+                },
+                {
+                    "date": 1686359942518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,15 +35,15 @@\n }\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n-    bill.value =  \"$0.00\";\n+    bill.value =  \"$0\";\n     const numPeople = document.querySelector(\"#people-entry\"); \n     numPeople.value = \"$0.00\"; \n     const tipAmount = document.querySelector(\".tip .amount\");\n-    tipAmount.textContent = '0'\n+    tipAmount.textContent = \"$0.00\";\n     const totalAmount = document.querySelector(\".total .amount\");tipAmount \n-    totalAmount.textContent = '0'\n+    totalAmount.textContent =  \"$0.00\";\n }\n \n \n \n"
+                },
+                {
+                    "date": 1686359948364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,11 +35,11 @@\n }\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n-    bill.value =  \"$0\";\n+    bill.value =  \"0\";\n     const numPeople = document.querySelector(\"#people-entry\"); \n-    numPeople.value = \"$0.00\"; \n+    numPeople.value = \"$0\"; \n     const tipAmount = document.querySelector(\".tip .amount\");\n     tipAmount.textContent = \"$0.00\";\n     const totalAmount = document.querySelector(\".total .amount\");tipAmount \n     totalAmount.textContent =  \"$0.00\";\n"
+                },
+                {
+                    "date": 1686359978391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n \n function reset() {\n     const bill = document.querySelector(\"#Bill\"); \n-    bill.value =  \"0\";\n+    bill.ariaPlaceholder =  \"0\";\n     const numPeople = document.querySelector(\"#people-entry\"); \n     numPeople.value = \"$0\"; \n     const tipAmount = document.querySelector(\".tip .amount\");\n     tipAmount.textContent = \"$0.00\";\n"
+                },
+                {
+                    "date": 1686359996450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,16 +34,9 @@\n     })\n }\n \n function reset() {\n-    const bill = document.querySelector(\"#Bill\"); \n-    bill.ariaPlaceholder =  \"0\";\n-    const numPeople = document.querySelector(\"#people-entry\"); \n-    numPeople.value = \"$0\"; \n-    const tipAmount = document.querySelector(\".tip .amount\");\n-    tipAmount.textContent = \"$0.00\";\n-    const totalAmount = document.querySelector(\".total .amount\");tipAmount \n-    totalAmount.textContent =  \"$0.00\";\n+ \n }\n \n \n \n"
+                },
+                {
+                    "date": 1686360039719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n     })\n }\n \n function reset() {\n- \n+    location.reload();\n }\n \n \n \n"
+                }
+            ],
+            "date": 1686344518396,
+            "name": "Commit-0",
+            "content": "// Select Elements \n//Collect Input \n//Dynamically Corrrect Users \n//Dunamically Update Elements "
+        }
+    ]
+}
